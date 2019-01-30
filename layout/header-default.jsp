@@ -51,9 +51,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="<%= request.getContextPath() %>/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
-        <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootswatch.css" type="text/css" />
+        <!--<link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />-->
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <!-- Archivo css de la libreria 'slippry', plugin del carousel de imagenes -->
+        <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
 <%
     if (!"NONE".equals(feedRef))
     {
@@ -85,7 +88,17 @@
         <script type='text/javascript' src='<%= request.getContextPath() %>/static/js/holder.js'></script>
         <script type="text/javascript" src="<%= request.getContextPath() %>/utils.js"></script>
         <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/choice-support.js"> </script>
+
+        <!-- Archivo javascript de la libreria 'slippry', plugin del carousel de imagenes -->
+        <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/slippry/slippry.min.js"> </script>
+
         <dspace:include page="/layout/google-analytics-snippet.jsp" />
+
+        <script>
+            jQuery(document).ready(function(){
+                jQuery('#slider').slippry()
+            });
+        </script>
 
     <%
     if (extraHeadDataLast != null)
@@ -128,6 +141,22 @@
 %>
 </header>
 
+<!-- Inicio - Carousel de imagenes -->
+<div style="margin-top: -2em !important">
+    <ul id="slider">
+        <li>
+          <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido a DSpace"></a>
+        </li>
+        <li>
+          <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Este es un texto de prueba."></a>
+        </li>
+        <li>
+          <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="<h4>Estas son mas <i>pruebas de texto</i> con la utlización de <strong>etiquetas</strong> y <span class='text-primary'>clases</span> :)</h4>"></a>
+        </li>
+    </ul>
+</div>
+<!-- Fin - Carousel de imagenes -->
+
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
@@ -138,7 +167,12 @@
         <div class="col-md-3"><img class="pull-right" src="<%= request.getContextPath() %>/image/logo.gif" alt="DSpace logo" />
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+        </div>
+    </div>
 </div>
+<br/>
 <br/>
                 <%-- Location bar --%>
 <%
