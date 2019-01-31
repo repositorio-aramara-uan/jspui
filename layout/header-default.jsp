@@ -161,8 +161,8 @@
 <div class="container banner">
     <div class="row">
         <div class="col-md-9 brand">
-            <h1><fmt:message key="jsp.layout.header-default.brand.heading" /></h1>
-            <fmt:message key="jsp.layout.header-default.brand.description" /> 
+            <h1>Bienvenido al Repositorio Institucional Aramara</h1>
+            <p>Comunidad Cientifica virtual de acceso abierto para todos<p/> 
         </div>
         <div class="col-md-3"><img class="pull-right" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />
         </div>
