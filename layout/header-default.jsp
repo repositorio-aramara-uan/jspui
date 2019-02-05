@@ -141,22 +141,6 @@
 %>
 </header>
 
-<!-- Inicio - Carousel de imagenes -->
-<div style="margin-top: -2em !important">
-    <ul id="slider">
-        <li>
-          <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido a DSpace"></a>
-        </li>
-        <li>
-          <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Este es un texto de prueba."></a>
-        </li>
-        <li>
-          <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="<h4>Estas son mas <i>pruebas de texto</i> con la utlización de <strong>etiquetas</strong> y <span class='text-primary'>clases</span> :)</h4>"></a>
-        </li>
-    </ul>
-</div>
-<!-- Fin - Carousel de imagenes -->
-
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
@@ -164,11 +148,26 @@
             <h1>Bienvenido al Repositorio Institucional Aramara</h1>
             <p>Comunidad Cientifica virtual de acceso abierto para todos<p/> 
         </div>
-        <div class="col-md-3"><img class="pull-right" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />
+        <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
+			<!-- Inicio - Carousel de imagenes -->
+			<div style="margin-top: -2em !important">
+				<ul id="slider">
+					<li>
+					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido a DSpace"></a>
+					</li>
+					<li>
+					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Este es un texto de prueba."></a>
+					</li>
+					<li>
+					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="<h4>Estas son mas <i>pruebas de texto</i> con la utlización de <strong>etiquetas</strong> y <span class='text-primary'>clases</span> :)</h4>"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- Fin - Carousel de imagenes -->
         </div>
     </div>
 </div>

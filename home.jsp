@@ -83,7 +83,7 @@ if (submissions != null && submissions.count() > 0)
 {
 %>
         <div class="col-md-8">
-        <div class="panel panel-primary">        
+        <div class="panel panel-primary">
         <div id="recent-submissions-carousel" class="panel-heading carousel slide">
           <h3><fmt:message key="jsp.collection-home.recentsub"/>
               <%
