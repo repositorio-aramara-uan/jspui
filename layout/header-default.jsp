@@ -154,7 +154,7 @@
     <div class="row">
         <div class="col-md-12">
 			<!-- Inicio - Carousel de imagenes -->
-			<div style="margin-top: -2em !important">
+			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
 					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido a DSpace"></a>
