@@ -164,6 +164,9 @@
 					<li>
 					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="Bienvenido"></a>
 					</li>
+					<li>
+					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg" alt="Bienvenido"></a>
+					</li>
 				</ul>
 			</div>
 			<!-- Fin - Carousel de imagenes -->
