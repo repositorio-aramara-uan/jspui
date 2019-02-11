@@ -156,13 +156,13 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido a DSpace"></a>
+					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido"></a>
 					</li>
 					<li>
-					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Este es un texto de prueba."></a>
+					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Bienvenido"></a>
 					</li>
 					<li>
-					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="<h4>Estas son mas <i>pruebas de texto</i> con la utlización de <strong>etiquetas</strong> y <span class='text-primary'>clases</span> :)</h4>"></a>
+					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="Bienvenido"></a>
 					</li>
 				</ul>
 			</div>
