@@ -143,6 +143,32 @@
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
+			<div class="col-md-13">
+			<div class="btn-group btn-group-toggle" data-toggle="buttons">
+				<label class="btn btn-secondary active">
+				<input type="radio" name="options" id="option1" autocomplete="off" checked> Aramara
+				</label>
+				<label class="btn btn-secondary active">
+				<input type="radio" name="options" id="option1" autocomplete="off" checked> Colecciones
+				</label>
+				<label class="btn btn-secondary active">
+				<input type="radio" name="options" id="option1" autocomplete="off" checked> Politicas
+				</label>
+				<label class="btn btn-secondary">
+				<input type="radio" name="options" id="option2" autocomplete="off"> Publicaciones
+				</label>
+				<label class="btn btn-secondary">
+				<input type="radio" name="options" id="option3" autocomplete="off"> Autores
+				</label>
+				<label class="btn btn-secondary">
+				<input type="radio" name="options" id="option3" autocomplete="off"> Areas Académicas
+				</label>
+				<label class="btn btn-secondary">
+				<input type="radio" name="options" id="option3" autocomplete="off"> Estadísticas
+				</label><label class="btn btn-secondary">
+				<input type="radio" name="options" id="option3" autocomplete="off"> AutoArchivo
+				</label>
+			</div>
         <div class="col-md-9 brand">
             <h1>Bienvenido al Repositorio Institucional Aramara</h1>
             <p>Comunidad Cientifica virtual de acceso abierto para todos<p/> 
