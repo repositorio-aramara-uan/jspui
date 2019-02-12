@@ -143,31 +143,16 @@
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
-			<div class="col-md-13">
+			<div class="col-md-13"> 
 			<div class="btn-group btn-group-toggle" data-toggle="buttons">
-				<label class="btn btn-secondary active">
-				<input type="radio" name="options" id="option1" autocomplete="off" checked> Aramara
-				</label>
-				<label class="btn btn-secondary active">
-				<input type="radio" name="options" id="option1" autocomplete="off" checked> Colecciones
-				</label>
-				<label class="btn btn-secondary active">
-				<input type="radio" name="options" id="option1" autocomplete="off" checked> Politicas
-				</label>
-				<label class="btn btn-secondary">
-				<input type="radio" name="options" id="option2" autocomplete="off"> Publicaciones
-				</label>
-				<label class="btn btn-secondary">
-				<input type="radio" name="options" id="option3" autocomplete="off"> Autores
-				</label>
-				<label class="btn btn-secondary">
-				<input type="radio" name="options" id="option3" autocomplete="off"> Areas Académicas
-				</label>
-				<label class="btn btn-secondary">
-				<input type="radio" name="options" id="option3" autocomplete="off"> Estadísticas
-				</label><label class="btn btn-secondary">
-				<input type="radio" name="options" id="option3" autocomplete="off"> AutoArchivo
-				</label>
+				<button type="button" class="btn btn-success">Aramara</button>
+				<button type="button" class="btn btn-primary">Comunidades</button>
+				<button type="button" class="btn btn-primary">Políticas</button>
+				<button type="button" class="btn btn-primary">Publicaciones</button>
+				<button type="button" class="btn btn-primary">Autores</button>
+				<button type="button" class="btn btn-primary">Áreas Académicas</button>
+				<button type="button" class="btn btn-primary">Estadísticas</button>
+				<button type="button" class="btn btn-primary">AutoArchivo</button>
 			</div>
         <div class="col-md-9 brand">
             <h1>Bienvenido al Repositorio Institucional Aramara</h1>
