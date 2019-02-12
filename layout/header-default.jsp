@@ -143,7 +143,7 @@
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
-			<div class="col-md-13" align="center">
+		<div class="col-md-13" align="center">
 			<div class="btn-group btn-group-toggle" data-toggle="buttons">
 				<button type="button" class="btn btn-success">Aramara</button>
 				<button type="button" class="btn btn-primary">Comunidades</button>
@@ -154,11 +154,11 @@
 				<button type="button" class="btn btn-primary">Estadísticas</button>
 				<button type="button" class="btn btn-primary">AutoArchivo</button>
 			</div>
-        <div class="col-md-9 brand" align="center">
-            <h1>Bienvenido al Repositorio Institucional Aramara</h1>
-            <p>Comunidad Cientifica virtual de acceso abierto para todos<p/> 
-        </div>
-        <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" /> -->
+            <div class="pull-center" align="center">
+				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
+				<p>Comunidad Cientifica virtual de acceso abierto para todos<p/> 
+            </div>
+             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" /> -->
         </div>
     </div>
     <div class="row">
