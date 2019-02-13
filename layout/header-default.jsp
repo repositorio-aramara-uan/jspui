@@ -145,14 +145,14 @@
     <div class="row">
 		<div class="col-md-13" align="center">
 			<div class="btn-group btn-group-toggle" data-toggle="buttons">
-				<button type="button" class="btn btn-success">Aramara</button>
-				<button type="button" class="btn btn-primary">Comunidades</button>
-				<button type="button" class="btn btn-primary">Políticas</button>
-				<button type="button" class="btn btn-primary">Publicaciones</button>
-				<button type="button" class="btn btn-primary">Autores</button>
-				<button type="button" class="btn btn-primary">Áreas Académicas</button>
-				<button type="button" class="btn btn-primary">Estadísticas</button>
-				<button type="button" class="btn btn-primary">AutoArchivo</button>
+				<input type="button" name="home" class="btn btn-success" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/home.jsp"> 
+				<input type="button" name="buttom1" class="btn btn-primary" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list.jsp">
+				<input type="button" name="buttom2" class="btn btn-primary" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
+				<input type="button" name="buttom3" class="btn btn-primary" value="Publicaciones" title="" onclick=location.href="/jspui/browse?type=dateissued">
+				<input type="button" name="buttom4" class="btn btn-primary" value="Autores" title="" onclick=location.href="/jspui/browse?type=author">
+				<input type="button" name="buttom5" class="btn btn-primary" value="Areas Academicas" title="" onclick=location.href="/jspui/browse?type=subject">
+				<input type="button" name="buttom6" class="btn btn-primary" value="Estadisticas" title="" onclick=location.href="<%= request.getContextPath() %>/statics.jsp">
+				<input type="button" name="buttom7" class="btn btn-primary" value="Autoarchivo" title="" onclick=location.href="<%= request.getContextPath() %>/self-archive.jsp">
 			</div>
             <div class="pull-center" align="center">
 				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
