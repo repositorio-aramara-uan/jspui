@@ -56,6 +56,8 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/dspace-theme.css" type="text/css" />
         <!-- Archivo css de la libreria 'slippry', plugin del carousel de imagenes -->
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons.css" type="text/css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <%
     if (!"NONE".equals(feedRef))
     {
