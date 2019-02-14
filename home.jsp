@@ -169,8 +169,7 @@ if (submissions != null && submissions.count() > 0)
           <div class="row">
              <div class="col-lg-12 col-md-12 col-sm-12"> 
             <div class="service-heading-block">
-                <h2 class="text-center text-primary title">Servicios</h2>
-                <p class="text-center sub-title">Lorem ipsum dolor sit amet,<span class="text-primary">consectetur adipisicing</span> elit.<br/> Dolor alias provident excepturi eligendi, nam numquam iusto eum illum, ea quisquam.</p>
+                <h2 class="text-center text-primary title">Conoce Nuestros Servicios</h2>
             </div>             
              </div> 
             <div class="col-lg-3 col-md-6 col-sm-6">
