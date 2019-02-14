@@ -164,7 +164,54 @@ if (submissions != null && submissions.count() > 0)
 <%
 }
 %>
-<div class="col-md-4">
+
+<div class="container text-center">
+          <div class="row">
+             <div class="col-lg-12 col-md-12 col-sm-12"> 
+            <div class="service-heading-block">
+                <h2 class="text-center text-primary title">Servicios</h2>
+                <p class="text-center sub-title">Lorem ipsum dolor sit amet,<span class="text-primary">consectetur adipisicing</span> elit.<br/> Dolor alias provident excepturi eligendi, nam numquam iusto eum illum, ea quisquam.</p>
+            </div>             
+             </div> 
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="text-center feature-block">
+                <span class="fb-icon color-info">
+                  <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                </span>
+                <h4 class="color-info">Cloud Upload</h4>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-6">
+             <div class="text-center feature-block">
+                <span class="fb-icon color-warning">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                </span>
+                <h4 class="color-warning">Computer Service</h4>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="text-center feature-block">
+                <span class="fb-icon color-success">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </span>
+                <h4 class="color-success">Email Service</h4>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="text-center feature-block">
+                <span class="fb-icon color-danger">
+                  <i class="fa fa-fire" aria-hidden="true"></i>
+                </span>
+                <h4 class="color-danger">Quality Service</h4>
+              </div>
+            </div>
+          </div>  
+
+    </div>
+	<div class="col-md-4">
     <%= sideNews %>
 </div>
 </div>

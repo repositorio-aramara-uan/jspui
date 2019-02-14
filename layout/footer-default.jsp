@@ -36,57 +36,6 @@
     }
 %>
 </div>
-<div class="container">
-      <div class="row">
-        <div class="col-lg-12" align="center">
-          <p>
-		  <h1> Servicios </h1>
-            <a href="#" class="btn btn-sq-lg btn-primary">
-                <i class="fa fa-user fa-5x"></i><br/>
-                Demo Primary <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-success">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Success <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-info">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Info <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-warning">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Warning <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-danger">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Danger <br>Button
-            </a>
-          </p>
-		  <p>
-            <a href="#" class="btn btn-sq-lg btn-primary">
-                <i class="fa fa-user fa-5x"></i><br/>
-                Demo Primary <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-success">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Success <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-info">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Info <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-warning">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Warning <br>Button
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-danger">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Demo Danger <br>Button
-            </a>
-          </p>
-        </div>
-	</div>
-  
 </main>
             <%-- Page footer --%>
              <footer class="navbar navbar-inverse navbar-bottom">
