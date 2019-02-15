@@ -47,11 +47,22 @@
 				 <div class="col-md-12" align="center">
                     <ul class="social-network social-circle" >
 						<h3 id="contacto">Contacto</h3>
-                        <li><a href="http://dspace.uan.mx:8080/jspui/feed/rss_2.0/site" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="https://www.facebook.com/AramaraRIUAN" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                    </ul>				
+                        <li><a href="http://dspace.uan.mx:8080/jspui/feed/rss_2.0/site" target="_blank" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="https://www.facebook.com/AramaraRIUAN" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/AramaraRi" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/riaramara/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+						<p id="info">Ciudad de la Cultura "Amado Nervo".
+						<br>
+						Tepic, Nayarit. México. C.P. 63155
+						<br>
+						Tel. (311) 211 8800.
+						<br>
+						contacto@uan.edu.mx
+						<br>
+						<a href="http://www.uan.edu.mx" target="_blank" >http://www.uan.edu.mx</a>
+						<br>
+						</p>
 				</div>
 				<br/>
 			</footer>
