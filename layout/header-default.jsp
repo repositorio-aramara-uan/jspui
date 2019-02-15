@@ -185,7 +185,7 @@
 			</div>
             <div class="pull-center" align="center">
 				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
-				<p>Comunidad Cientifica virtual de acceso abierto para todos<p/>
+				<p>Comunidad Cientifica virtual de acceso abierto<p/>
                 <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
 			</div>
              <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" /> -->
