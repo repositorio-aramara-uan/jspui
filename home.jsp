@@ -169,7 +169,7 @@ if (submissions != null && submissions.count() > 0)
           <div class="row">
              <div class="col-lg-12 col-md-12 col-sm-12"> 
             <div class="service-heading-block">
-                <h2 class="text-center">Conoce Nuestros Servicios</h2>
+                <h2 class="text-center">Conoce Nuestros Recursos</h2>
             </div>             
              </div> 
             <div class="col-lg-3 col-md-6 col-sm-6">

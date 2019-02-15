@@ -28,8 +28,11 @@ ul.social-network li {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   
 }
+.social-network a.icoEnvelope:hover {
+	background-color:#74DF00;
+}
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoInstagram:hover i {
+.social-network a.icoInstagram:hover i, a.icoEnvelope:hover i {
 	color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
