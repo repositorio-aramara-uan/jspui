@@ -175,17 +175,28 @@
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
-		<div class="col-md-13" align="center">
-			<div class="btn-group btn-group-toggle" data-toggle="buttons">
-				<input type="button" name="home" class="btn btn-success" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/home.jsp"> 
-				<input type="button" name="buttom1" class="btn btn-primary" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list.jsp">
-				<input type="button" name="buttom2" class="btn btn-primary" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
-				<input type="button" name="buttom3" class="btn btn-primary" value="Publicaciones" title="" onclick=location.href="/jspui/browse?type=dateissued">
-				<input type="button" name="buttom4" class="btn btn-primary" value="Autores" title="" onclick=location.href="/jspui/browse?type=author">
-				<input type="button" name="buttom5" class="btn btn-primary" value="Areas Academicas" title="" onclick=location.href="/jspui/browse?type=subject">
-				<input type="button" name="buttom6" class="btn btn-primary" value="Estadisticas" title="" onclick=location.href="<%= request.getContextPath() %>/statics.jsp">
-				<input type="button" name="buttom7" class="btn btn-primary" value="Autoarchivo" title="" onclick=location.href="<%= request.getContextPath() %>/self-archive.jsp">
-			</div>
+		<div class="col-md-13" class="pull-center">
+			<!--<div class="nav nav-pills" data-toggle="buttons">
+				<input type="button" name="home" 	class="active" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/home.jsp"> 
+				<input type="button" name="buttom1" class="btn btn-default" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list.jsp">
+				<input type="button" name="buttom2" class="btn btn-default" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
+				<input type="button" name="buttom3" class="btn btn-default" value="Publicaciones" title="" onclick=location.href="/jspui/browse?type=dateissued">
+				<input type="button" name="buttom4" class="btn btn-default" value="Autores" title="" onclick=location.href="/jspui/browse?type=author">
+				<input type="button" name="buttom5" class="btn btn-default" value="Areas Academicas" title="" onclick=location.href="/jspui/browse?type=subject">
+				<input type="button" name="buttom6" class="btn btn-default" value="Estadisticas" title="" onclick=location.href="<%= request.getContextPath() %>/statics.jsp">
+				<input type="button" name="buttom7" class="btn btn-default" value="Autoarchivo" title="" onclick=location.href="<%= request.getContextPath() %>/self-archive.jsp">
+			</div>-->
+			<ul class="nav nav-pills" align="center">
+				<li role="presentation" class="active"> <a href="#">Aramara</a></li>
+				<li role="presentation"><a href="#">Comunidades</a></li>
+				<li role="presentation"><a href="#">Políticas</a></li>
+				<li role="presentation"><a href="#">Publicaciones</a></li>
+				<li role="presentation"><a href="#">Autores</a></li>
+				<li role="presentation"><a href="#">Áreas Acádemicas</a></li>
+				<li role="presentation"><a href="#">Estadísticas</a></li>
+				<li role="presentation"><a href="#">Auto-Archivo</a></li>
+			</ul>
+			
             <div class="pull-center" align="center">
 				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
 				<p>Comunidad Cientifica virtual de acceso abierto<p/>
