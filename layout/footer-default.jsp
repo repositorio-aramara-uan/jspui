@@ -50,7 +50,7 @@
                         <li><a href="http://dspace.uan.mx:8080/jspui/feed/rss_2.0/site" target="_blank" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
                         <li><a href="https://www.facebook.com/AramaraRI/" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://twitter.com/AramaraRi" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/riaramara/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/aramarari/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
 						<li><a href="mailto:aramara@uan.edu.mx" target="_blank" class="icoEnvelope" title="Correo"><i class="fa fa-envelope"></i></a></li>
                     </ul>
 						<p id="info">Ciudad de la Cultura "Amado Nervo".

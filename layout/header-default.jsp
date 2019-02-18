@@ -24,6 +24,7 @@
 <%@ page import="javax.servlet.jsp.jstl.core.*" %>
 <%@ page import="javax.servlet.jsp.jstl.fmt.*" %>
 
+
 <%
     String title = (String) request.getAttribute("dspace.layout.title");
     String navbar = (String) request.getAttribute("dspace.layout.navbar");
@@ -62,6 +63,7 @@
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css"/>
 		
 		
+		
 <%
     if (!"NONE".equals(feedRef))
     {
@@ -96,6 +98,7 @@
 
         <!-- Archivo javascript de la libreria 'slippry', plugin del carousel de imagenes -->
         <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/slippry/slippry.min.js"> </script>
+		
 
         <dspace:include page="/layout/google-analytics-snippet.jsp" />
 

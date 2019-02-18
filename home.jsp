@@ -43,6 +43,7 @@
 <%@ page import="org.dspace.services.ConfigurationService" %>
 <%@ page import="org.dspace.services.factory.DSpaceServicesFactory" %>
 
+
 <%
     List<Community> communities = (List<Community>) request.getAttribute("communities");
 
@@ -164,51 +165,49 @@ if (submissions != null && submissions.count() > 0)
 <%
 }
 %>
-
 <div class="container text-center">
           <div class="row">
              <div class="col-lg-12 col-md-12 col-sm-12"> 
-            <div class="service-heading-block">
+             <div class="service-heading-block">
                 <h2 class="text-center">Conoce Nuestros Recursos</h2>
             </div>             
-             </div> 
+            </div> 
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
-                  <i class="fa fa-cloud-upload" aria-hidden="true"></i>
-				  <!--<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Computer_icon.png" class="img-responsive" style="max-width: 80px;">-->
-                </span>
-                <h4 class="color-info">Cloud Upload</h4>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 col-sm-6">
-             <div class="text-center feature-block">
-                <span class="fb-icon color-warning">
                   <i class="fa fa-desktop" aria-hidden="true"></i>
                 </span>
-                <h4 class="color-warning">Computer Service</h4>
+				<a href="#" target="_blank" title="" class="color-info"><i"><h4>AutoArchivo</h4></i></a></li>
               </div>
             </div>
             
             <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="text-center feature-block">
+                <span class="fb-icon color-warning">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                </span>
+                <a href="#" target="_blank" title="" class="color-warning"><i"><h4>Colecciones</h4></i></a></li>
+              </div>
+              </div>
+			  <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-success">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <i class="fa fa-users" aria-hidden="true"></i>
                 </span>
-                <h4 class="color-success">Email Service</h4>
+                <a href="#" target="_blank" title="" class="color-success"><i"><h4>Comunidades</h4></i></a></li>
               </div>
             </div>
             
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-danger">
-                  <i class="fa fa-fire" aria-hidden="true"></i>
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                 </span>
-                <h4 class="color-danger">Quality Service</h4>
+                <a href="#" target="_blank" title="" class="color-danger">Novedades<i"><h4></h4></i></a></li>
               </div>
             </div>
-          </div>  
+            </div>          
+</div>  
 
     </div>
 	<div class="col-md-4">
@@ -221,7 +220,7 @@ if (communities != null && communities.size() != 0)
 {
 %>
 	<div class="col-md-4">		
-               <h3><fmt:message key="jsp.home.com1"/></h3>
+                <h3><fmt:message key="jsp.home.com1"/></h3>
                 <p><fmt:message key="jsp.home.com2"/></p>
 				<div class="list-group">
 <%
@@ -266,7 +265,7 @@ if (communities != null && communities.size() != 0)
     	int discovery_facet_cols = 4;
     %>
 	<%@ include file="discovery/static-sidebar-facet.jsp" %>
-</div>
+</div>-->
 
 <div class="row">
 	<%@ include file="discovery/static-tagcloud-facet.jsp" %>
