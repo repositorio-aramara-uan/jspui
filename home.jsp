@@ -203,7 +203,7 @@ if (submissions != null && submissions.count() > 0)
                 <span class="fb-icon color-danger">
                   <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                 </span>
-                <a href="#" target="_blank" title="" class="color-danger">Novedades<i"><h4></h4></i></a></li>
+                <a href="#" target="_blank" title="" class="color-danger"><i"><h4>Novedades</h4></i></a></li>
               </div>
             </div>
             </div>          
