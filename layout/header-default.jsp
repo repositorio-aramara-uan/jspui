@@ -176,7 +176,7 @@
 <div class="container banner">
     <div class="row">
 		<div class="col-md-13" align="center">
-			<div class="nav nav-pills" data-toggle="buttons">
+			<div class="btn-group btn-group-toggle" data-toggle="buttons">
 				<input type="button" name="home" 	class="home" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/home.jsp"> 
 				<input type="button" name="buttom1" class="button" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list.jsp">
 				<input type="button" name="buttom2" class="button" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">

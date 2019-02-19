@@ -265,7 +265,7 @@ if (communities != null && communities.size() != 0)
     	int discovery_facet_cols = 4;
     %>
 	<%@ include file="discovery/static-sidebar-facet.jsp" %>
-</div>-->
+</div>
 
 <div class="row">
 	<%@ include file="discovery/static-tagcloud-facet.jsp" %>
