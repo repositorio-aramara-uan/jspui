@@ -59,6 +59,8 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/prueba.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<!--Buttons Agregados para la Seccion de Servicios-->
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css"/>
 		
@@ -176,7 +178,7 @@
 <div class="container banner">
     <div class="row">
 		<div class="col-md-13" align="center">
-			<div class="btn-group btn-group-toggle" data-toggle="buttons">
+			<!--<div class="btn-group btn-group-toggle" data-toggle="buttons">
 				<input type="button" name="home" 	class="home" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/"> 
 				<input type="button" name="buttom1" class="button" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list">
 				<input type="button" name="buttom2" class="button" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy">
@@ -185,16 +187,37 @@
 				<input type="button" name="buttom5" class="button" value="Áreas Acadmicas" title="" onclick=location.href="/jspui/browse?type=subject">
 				<input type="button" name="buttom6" class="button" value="Estadisticas" title="" onclick=location.href="<%= request.getContextPath() %>/statics">
 				<input type="button" name="buttom7" class="button" value="Autoarchivo" title="" onclick=location.href="<%= request.getContextPath() %>/self-archive">
-			</div>
+			</div>-->
             <div class="pull-center" align="center">
 				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
 				<p>Comunidad Cientifica virtual de acceso abierto<p/>
                 <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
 			</div>
-             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" /> -->
-    </div>
+             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
+		</div>
+	</div>
+<div class="container">
     <div class="row">
         <div class="col-md-12">
+		<div class="left">
+		<div class="item">
+			<i class="fas fa-fw fa-bars"></i>
+		</div>
+		<div class="item active">
+			<i class="fas fa-fw fa-map-marked-alt"></i> Aramara
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-columns"></i> Comunidades
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-th"></i> Políticas
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-user-circle"></i> Publicaciones
+		</div>
+		</div>
+		</div>
+	
 			<!-- Inicio - Carousel de imagenes -->
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
@@ -213,7 +236,9 @@
 				</ul>
 			</div>
 			<!-- Fin - Carousel de imagenes -->
-        </div>
+	</div>
+</div>
+</div>
     </div>
 </div>
 <br/>
