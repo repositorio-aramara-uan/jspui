@@ -177,14 +177,14 @@
     <div class="row">
 		<div class="col-md-13" align="center">
 			<div class="btn-group btn-group-toggle" data-toggle="buttons">
-				<input type="button" name="home" 	class="home" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/home.jsp"> 
-				<input type="button" name="buttom1" class="button" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list.jsp">
-				<input type="button" name="buttom2" class="button" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
+				<input type="button" name="home" 	class="home" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/"> 
+				<input type="button" name="buttom1" class="button" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list">
+				<input type="button" name="buttom2" class="button" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy">
 				<input type="button" name="buttom3" class="button" value="Publicaciones" title="" onclick=location.href="/jspui/browse?type=dateissued">
 				<input type="button" name="buttom4" class="button" value="Autores" title="" onclick=location.href="/jspui/browse?type=author">
 				<input type="button" name="buttom5" class="button" value="Áreas Acadmicas" title="" onclick=location.href="/jspui/browse?type=subject">
-				<input type="button" name="buttom6" class="button" value="Estadisticas" title="" onclick=location.href="<%= request.getContextPath() %>/statics.jsp">
-				<input type="button" name="buttom7" class="button" value="Autoarchivo" title="" onclick=location.href="<%= request.getContextPath() %>/self-archive.jsp">
+				<input type="button" name="buttom6" class="button" value="Estadisticas" title="" onclick=location.href="<%= request.getContextPath() %>/statics">
+				<input type="button" name="buttom7" class="button" value="Autoarchivo" title="" onclick=location.href="<%= request.getContextPath() %>/self-archive">
 			</div>
             <div class="pull-center" align="center">
 				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
