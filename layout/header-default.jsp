@@ -195,6 +195,9 @@
 		<div class="item">
 			<i class="fas fa-fw fa-bar-chart"></i> Estadísticas
 		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-address-book"></i> Contacto
+		</div>
 		</div>
 <main id="content" role="main">
 <div class="container banner">
