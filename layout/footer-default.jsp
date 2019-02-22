@@ -61,7 +61,7 @@
 						<br>
 						Tel. (311) 211 8800.
 						<br>
-						contacto@uan.edu.mx
+						<a href="mailto:contacto@uan.edu.mx" target="_blank" title="Correo">contacto@uan.edu.mx</a>
 						<br>
 						<a href="http://www.uan.edu.mx" target="_blank" >http://www.uan.edu.mx</a>
 						<br>
