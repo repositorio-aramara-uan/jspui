@@ -173,7 +173,29 @@
     }
 %>
 </header>
-
+	<div class="left">
+		<div class="item">
+			<i class="fas fa-fw fa-bars"></i>
+		</div>
+		<div class="item active">
+			<i class="fas fa-fw fa-home"></i> Aramara
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-users"></i> Comunidades
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-file-text"></i> Auto Archivo
+		</div>
+		<div class="item">
+			<i class="fas fa-fw fa-bar-chart"></i> Estadísticas
+		</div>
+		</div>
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
@@ -199,23 +221,6 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-		<div class="left">
-		<div class="item">
-			<i class="fas fa-fw fa-bars"></i>
-		</div>
-		<div class="item active">
-			<i class="fas fa-fw fa-map-marked-alt"></i> Aramara
-		</div>
-		<div class="item">
-			<i class="fas fa-fw fa-columns"></i> Comunidades
-		</div>
-		<div class="item">
-			<i class="fas fa-fw fa-th"></i> Políticas
-		</div>
-		<div class="item">
-			<i class="fas fa-fw fa-user-circle"></i> Publicaciones
-		</div>
-		</div>
 		</div>
 	
 			<!-- Inicio - Carousel de imagenes -->
