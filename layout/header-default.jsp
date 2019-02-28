@@ -178,7 +178,7 @@
 			<i class="fas fa-fw fa-bars"></i>
 		</div>
 		<div class="item active">
-			<i class="fas fa-fw fa-home"></i> Aramara
+			<i class="fas fa-fw fa-home"></i>Aramara
 		</div>
 		<div class="item">
 			<i class="fas fa-fw fa-users"></i> Comunidades

@@ -166,45 +166,54 @@ if (submissions != null && submissions.count() > 0)
 %>
 <div class="container text-center">
           <div class="row">
-             <div class="col-lg-12 col-md-12 col-sm-12"> 
-             <div class="service-heading-block">
+            <div class="col-lg-12 col-md-12 col-sm-12"> 
+            <div class="service-heading-block">
                 <h2 class="text-center">Conoce Nuestros Recursos</h2>
             </div>             
             </div> 
+			<a href="#" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
                   <i class="fa fa-desktop" aria-hidden="true"></i>
                 </span>
-				<a href="#" target="_blank" title="" class="color-info"><i"><h4>AutoArchivo</h4></i></a></li>
+				<h3>AutoArchivo</h3>
               </div>
             </div>
+			</a>
             
+			<a href="#" target="_blank" title="" class="color-warning">
             <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-warning">
                   <i class="fa fa-book" aria-hidden="true"></i>
                 </span>
-                <a href="#" target="_blank" title="" class="color-warning"><i"><h4>Colecciones</h4></i></a></li>
+                <h3>Colecciones</h3>
               </div>
               </div>
-			  <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="text-center feature-block">
+			</a>
+			  
+			<a href="#" target="_blank" title="" class="color-success ">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="text-center feature-block">
                 <span class="fb-icon color-success">
                   <i class="fa fa-users" aria-hidden="true"></i>
                 </span>
-                <a href="#" target="_blank" title="" class="color-success"><i"><h4>Comunidades</h4></i></a></li>
+                <h3>Comunidades</h3>
               </div>
             </div>
+			</a>
             
+			<a href="#" target="_blank" title="" class="color-danger ">
             <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="text-center feature-block">
+             <div class="text-center feature-block">
                 <span class="fb-icon color-danger">
                   <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                 </span>
-                <a href="#" target="_blank" title="" class="color-danger"><i"><h4>Novedades</h4></i></a></li>
+                <h3>Novedades</h>
               </div>
             </div>
+			</a>
             </div>          
 </div>  
 
