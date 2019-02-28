@@ -172,7 +172,7 @@ if (submissions != null && submissions.count() > 0)
                 <h2 class="text-center">Conoce Nuestros Recursos</h2>
             </div>             
             </div> 
-			<a href="#" target="_blank" title="" class="color-info">
+			<a href="<%= request.getContextPath() %>/self-archive" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
@@ -183,7 +183,7 @@ if (submissions != null && submissions.count() > 0)
             </div>
 			</a>
             
-			<a href="#" target="_blank" title="" class="color-warning">
+			<a href="/jspui/browse?type=subject" target="_blank" title="" class="color-warning">
             <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-warning">
@@ -194,7 +194,7 @@ if (submissions != null && submissions.count() > 0)
               </div>
 			</a>
 			  
-			<a href="#" target="_blank" title="" class="color-success ">
+			<a href="<%= request.getContextPath() %>/community-list" target="_blank" title="" class="color-success ">
 			<div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-success">
@@ -205,7 +205,7 @@ if (submissions != null && submissions.count() > 0)
             </div>
 			</a>
             
-			<a href="#" target="_blank" title="" class="color-danger ">
+			<a href="/jspui/browse?type=dateissued" target="_blank" title="" class="color-danger ">
             <div class="col-lg-3 col-md-6 col-sm-6">
              <div class="text-center feature-block">
                 <span class="fb-icon color-danger">
