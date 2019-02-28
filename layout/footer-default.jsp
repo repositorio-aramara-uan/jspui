@@ -53,13 +53,15 @@
                         <li><a href="https://www.instagram.com/aramarari/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
 						<li><a href="mailto:aramara@uan.edu.mx" target="_blank" class="icoEnvelope" title="Correo"><i class="fa fa-envelope"></i></a></li>
                     </ul>
-						<p id="info">Ciudad de la Cultura "Amado Nervo".
+						<p id="info">UNIVERSIDAD AUTÓNOMA DE NAYARIT
+						<br>
+						Ciudad de la Cultura "Amado Nervo".
 						<br>
 						Tepic, Nayarit. México. C.P. 63155
 						<br>
 						Tel. (311) 211 8800.
 						<br>
-						contacto@uan.edu.mx
+						<a href="mailto:contacto@uan.edu.mx" target="_blank" title="Correo">contacto@uan.edu.mx</a>
 						<br>
 						<a href="http://www.uan.edu.mx" target="_blank" >http://www.uan.edu.mx</a>
 						<br>
