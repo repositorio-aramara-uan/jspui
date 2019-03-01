@@ -216,6 +216,60 @@ if (submissions != null && submissions.count() > 0)
 			</a>
             </div>          
 </div>  
+<hr>
+<div class="blog-section paddingTB60 ">
+<div class="container">
+	<div class="row">
+		<div class="site-heading text-center">
+						<h3>Noticias</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim </p>
+						<div class="border"></div>
+					</div>
+	</div>
+	<div class="row text-center">
+	       <div class="col-sm-6 col-md-4">
+							<div class="blog-box">
+								<div class="blog-box-image">
+									<img src="https://images.pexels.com/photos/6384/woman-hand-desk-office.jpg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
+								</div>
+								<div class="blog-box-content">
+									<h4><a href="#">quis porta tellus dictum</a></h4>
+									<p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
+									Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+									<a href="" class="btn btn-default site-btn">Ver más</a>
+								</div>
+							</div>
+						</div> <!-- End Col -->					
+			<div class="col-sm-6 col-md-4">
+							<div class="blog-box">
+								<div class="blog-box-image">
+									<img src="https://images.pexels.com/photos/374897/pexels-photo-374897.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
+								</div>
+								<div class="blog-box-content">
+									<h4><a href="#">quis porta tellus dictum</a></h4>
+									<p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
+									Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+									<a href="" class="btn btn-default site-btn">Ver más</a>
+								</div>
+							</div>
+						</div> <!-- End Col -->				
+			<div class="col-sm-6 col-md-4">
+							<div class="blog-box">
+								<div class="blog-box-image">
+									<img src="https://images.pexels.com/photos/541522/pexels-photo-541522.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" class="img-responsive" alt="">
+								</div>
+								<div class="blog-box-content">
+									<h4><a href="#">quis porta tellus dictum</a></h4>
+									<p>Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. 
+									Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+									<a href="" class="btn btn-default site-btn">Ver más</a>
+								</div>
+							</div>
+						</div> <!-- End Col -->
+    </div>
+</div>
+</div>
+<hr>
 
     </div>
 	<div class="col-md-4">

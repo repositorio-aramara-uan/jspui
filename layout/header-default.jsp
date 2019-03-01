@@ -60,6 +60,7 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/prueba.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<!--Buttons Agregados para la Seccion de Servicios-->
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css"/>
@@ -177,25 +178,25 @@
 		<div class="item">
 			<i class="fas fa-fw fa-bars"></i>
 		</div>
-		<div class="item active">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/">
 			<i class="fas fa-fw fa-home"></i>Aramara
 		</div>
-		<div class="item">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
 			<i class="fas fa-fw fa-users"></i> Comunidades
 		</div>
-		<div class="item">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy">
 			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
 		</div>
-		<div class="item">
+		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
 			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
 		</div>
-		<div class="item">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/self-archive">
 			<i class="fas fa-fw fa-file-text"></i> Auto Archivo
 		</div>
-		<div class="item">
-			<i class="fas fa-fw fa-bar-chart"></i> Estadísticas
+		<div class="item item-lateral">
+			<i class="fas fa-fw fa-bar-chart" onclick=location.href="<%= request.getContextPath() %>/statics"></i> Estadísticas
 		</div>
-		<div class="item">
+		<div class="item item-lateral" onclick=location.href="#contacto_ref">
 			<i class="fas fa-fw fa-address-book"></i> Contacto
 		</div>
 		</div>

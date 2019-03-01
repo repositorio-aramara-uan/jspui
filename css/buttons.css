@@ -90,3 +90,7 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.item-lateral:hover{
+	cursor: pointer;
+}

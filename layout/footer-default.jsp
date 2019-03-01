@@ -21,6 +21,7 @@
 		
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
 
 
 <%
@@ -43,8 +44,14 @@
 </div>
 </main>
             <%-- Page footer --%>
-             <footer class="navbar navbar-inverse navbar-bottom">
-				 <div class="col-md-12" align="center">
+             <footer class="navbar navbar-inverse navbar-bottom" id="contacto_ref">
+			 <div class="row">
+			 <div class="col-md-3">
+				<a href="https://www.conacyt.gob.mx/" target="_blank" >
+					<img src="image/Logotipo_de_la_CONACYT.png" class="img-responsive" id="logo-conacyt" alt="Conacyt" />
+				</a>
+			 </div>
+			 <div class="col-md-6" align="center">
                     <ul class="social-network social-circle" >
 						<h3 id="contacto">Contacto</h3>
                         <li><a href="http://dspace.uan.mx:8080/jspui/feed/rss_2.0/site" target="_blank" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
@@ -66,8 +73,14 @@
 						<a href="http://www.uan.edu.mx" target="_blank" >http://www.uan.edu.mx</a>
 						<br>
 						</p>
-				</div>
-				<br/>
-			</footer>
+			 </div>
+			 <div class="col-md-3">				
+				<a href="http://www.uan.edu.mx" target="_blank" >
+					<img src="image/logoUAN.png" class="img-responsive" id="logo-uan" alt="UAN" />
+				</a>
+			 </div>
+			 </div>
+			 
+			 </footer>
     </body>
 </html>
