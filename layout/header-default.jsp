@@ -59,6 +59,8 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/prueba.css" type="text/css" />
+		<!-- Fuentes y estilos para noticias -->
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 		<!--Buttons Agregados para la Seccion de Servicios-->
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css"/>
 		
