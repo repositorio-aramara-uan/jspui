@@ -94,7 +94,14 @@
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
          <ul class="nav navbar-nav">
            <li class="<%= currentPage.endsWith("/home.jsp")? "active" : "" %>"><a href="<%= request.getContextPath() %>/"><span class="glyphicon glyphicon-home"></span> <fmt:message key="jsp.layout.navbar-default.home"/></a></li>
-                
+            <li id="movil-menu">   
+			   <li><a href="<%= request.getContextPath() %>/community-list">Comunidades</a></li>
+               <li><a href="<%= request.getContextPath() %>/policy">Políticas Institucionales</a></li>
+			   <li><a href="<%= request.getContextPath() %>/jspui/browse?type=dateissued">Publicaciones</a></li>
+			   <li><a href="<%= request.getContextPath() %>/self-archive">Auto Archivo</a></li>
+			   <li><a href="<%= request.getContextPath() %>/statics"">Estadísticas</a></li>
+			   <li><a href="#contacto_ref">Contacto</a></li>
+			</li>
            <li class="dropdown">
              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><fmt:message key="jsp.layout.navbar-default.browse"/> <b class="caret"></b></a>
              <ul class="dropdown-menu">
@@ -103,6 +110,7 @@
         <li class="dropdown-header"><fmt:message key="jsp.layout.navbar-default.browseitemsby"/></li>
 				<%-- Insert the dynamic browse indices here --%>
 				
+				
 				<%
 					for (int i = 0; i < bis.length; i++)
 					{
@@ -110,6 +118,7 @@
 						String key = "browse.menu." + bix.getName();
 					%>
 				      			<li><a href="<%= request.getContextPath() %>/browse?type=<%= bix.getName() %>"><fmt:message key="<%= key %>"/></a></li>
+								
 					<%	
 					}
 				%>
@@ -153,6 +162,7 @@
        <div class="nav navbar-nav navbar-right">
 		<ul class="nav navbar-nav navbar-right">
          <li class="dropdown">
+		 
          <%
     if (user != null)
     {
