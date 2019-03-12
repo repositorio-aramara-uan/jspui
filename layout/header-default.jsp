@@ -61,7 +61,7 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/prueba.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
-	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<!--Buttons Agregados para la Seccion de Servicios-->
@@ -194,7 +194,7 @@
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
 			<i class="fas fa-fw fa-users"></i> Comunidades
 		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
 			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
 		</div>
 		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
@@ -209,7 +209,7 @@
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
 			<i class="fas fa-fw fa-address-book"></i> Contacto
 		</div>
-		</div>
+	</div>
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
