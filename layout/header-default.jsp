@@ -63,14 +63,12 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
-
-
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<!-- Hojas de estilo para la barra flotante iconos y parametros -->
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
 		<!--Buttons Agregados para la Seccion de Servicios-->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css"/>
-		
-		
-		
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" />
+				
 <%
     if (!"NONE".equals(feedRef))
     {
@@ -196,7 +194,7 @@
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
 			<i class="fas fa-fw fa-users"></i> Comunidades
 		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
 			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
 		</div>
 		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
@@ -211,21 +209,11 @@
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
 			<i class="fas fa-fw fa-address-book"></i> Contacto
 		</div>
-		</div>
+	</div>
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
 		<div class="col-md-13" align="center">
-			<!--<div class="btn-group btn-group-toggle" data-toggle="buttons">
-				<input type="button" name="home" 	class="home" value="Aramara" title="" onclick=location.href="<%= request.getContextPath() %>/"> 
-				<input type="button" name="buttom1" class="button" value="Comunidades" title="" onclick=location.href="<%= request.getContextPath() %>/community-list">
-				<input type="button" name="buttom2" class="button" value="Politicas" title="" onclick=location.href="<%= request.getContextPath() %>/policy">
-				<input type="button" name="buttom3" class="button" value="Publicaciones" title="" onclick=location.href="/jspui/browse?type=dateissued">
-				<input type="button" name="buttom4" class="button" value="Autores" title="" onclick=location.href="/jspui/browse?type=author">
-				<input type="button" name="buttom5" class="button" value="Áreas Acadmicas" title="" onclick=location.href="/jspui/browse?type=subject">
-				<input type="button" name="buttom6" class="button" value="Estadisticas" title="" onclick=location.href="<%= request.getContextPath() %>/statics">
-				<input type="button" name="buttom7" class="button" value="Autoarchivo" title="" onclick=location.href="<%= request.getContextPath() %>/self-archive">
-			</div>-->
             <div class="pull-center" align="center">
 				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
 				<p><b>Comunidad Cientifica Virtual de Acceso Abierto</b><p/>
