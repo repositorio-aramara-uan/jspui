@@ -203,8 +203,8 @@
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/self-archive">
 			<i class="fas fa-fw fa-file-text"></i> Auto Archivo
 		</div>
-		<div class="item item-lateral">
-			<i class="fas fa-fw fa-bar-chart" onclick=location.href="<%= request.getContextPath() %>/statics"></i> Estadísticas
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/statics">
+			<i class="fas fa-fw fa-bar-chart"></i> Estadísticas
 		</div>
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
 			<i class="fas fa-fw fa-address-book"></i> Contacto
