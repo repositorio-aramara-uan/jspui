@@ -171,29 +171,29 @@ if (submissions != null && submissions.count() > 0)
                 <h2 class="text-center">Conoce Nuestros Recursos</h2>
             </div>             
             </div> 
-			<a href="#" target="_blank" title="" class="color-info">
+			<a href="<%= request.getContextPath() %>/policy.jsp" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
                   <i class="fa fa-desktop" aria-hidden="true"></i>
                 </span>
-				<h3>AutoArchivo</h3>
+				<h3>Políticas</h3>
               </div>
             </div>
 			</a>
             
-			<a href="#" target="_blank" title="" class="color-warning">
+			<a href="<%= request.getContextPath() %>/browse?type=title" target="_blank" title="" class="color-warning">
             <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-warning">
                   <i class="fa fa-book" aria-hidden="true"></i>
                 </span>
-                <h3>Colecciones</h3>
+                <h3>Publicaciones</h3>
               </div>
               </div>
 			</a>
 			  
-			<a href="#" target="_blank" title="" class="color-success ">
+			<a href="<%= request.getContextPath() %>/community-list" target="_blank" title="" class="color-success ">
 			<div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-success">
@@ -204,7 +204,7 @@ if (submissions != null && submissions.count() > 0)
             </div>
 			</a>
             
-			<a href="#" target="_blank" title="" class="color-danger ">
+			<a href="<%= request.getContextPath() %>/browse?type=dateissued" target="_blank" title="" class="color-danger ">
             <div class="col-lg-3 col-md-6 col-sm-6">
              <div class="text-center feature-block">
                 <span class="fb-icon color-danger">

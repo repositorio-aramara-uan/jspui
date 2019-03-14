@@ -92,14 +92,8 @@
          <a class="navbar-brand" href="<%= request.getContextPath() %>/"><img height="25" src="<%= request.getContextPath() %>/image/dspace-logo-only.png" alt="DSpace logo" /></a>
        </div>
        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-         <ul class="nav navbar-nav" id="menu-movil">
+         <ul class="nav navbar-nav">
            <li class="<%= currentPage.endsWith("/home.jsp")? "active" : "" %>"><a href="<%= request.getContextPath() %>/"><span class="glyphicon glyphicon-home"></span> <fmt:message key="jsp.layout.navbar-default.home"/></a></li>
-		   
-		   <li><a href="<%= request.getContextPath() %>/community-list">Comunidades</a></li>
-           <li><a href="<%= request.getContextPath() %>/policy">Políticas Institucionales</a></li>
-		   <li><a href="<%= request.getContextPath() %>/jspui/browse?type=dateissued">Publicaciones</a></li>
-		   <li><a href="#contacto_ref">Contacto</a></li>
-		
            <li class="dropdown">
              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><fmt:message key="jsp.layout.navbar-default.browse"/> <b class="caret"></b></a>
              <ul class="dropdown-menu">
@@ -124,6 +118,7 @@
 				<%-- End of dynamic browse indices --%>
             </ul>
           </li>
+		  <li><a href="<%= request.getContextPath() %>/policy.jsp">Políticas Institucionales</a></li>
           <li class="<%= ( currentPage.endsWith( "/help" ) ? "active" : "" ) %>"><dspace:popup page="<%= LocaleSupport.getLocalizedMessage(pageContext, \"help.index\") %>"><fmt:message key="jsp.layout.navbar-default.help"/></dspace:popup></li>
        </ul>
 

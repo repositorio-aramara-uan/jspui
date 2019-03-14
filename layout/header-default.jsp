@@ -62,7 +62,6 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
-	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
 		<!-- Hojas de estilo para la barra flotante iconos y parametros -->
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
@@ -197,7 +196,7 @@
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
 			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
 		</div>
-		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/browse?type=dateissued">
 			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
 		</div>
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
@@ -209,8 +208,8 @@
     <div class="row">
 		<div class="col-md-13" align="center">
             <div class="pull-center" align="center">
-				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
-				<p><b>Comunidad Cientifica Virtual de Acceso Abierto</b><p/>
+				<h1>Repositorio Institucional Aramara</h1>
+				<p><b>Comunidad Científica Virtual de Acceso Abierto</b><p/>
                 <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
 			</div>
              <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
@@ -225,16 +224,16 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido"></a>
+					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Bienvenido"></a>
+					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="Bienvenido"></a>
+					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg" alt="Bienvenido"></a>
+					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg"></a>
 					</li>
 				</ul>
 			</div>
