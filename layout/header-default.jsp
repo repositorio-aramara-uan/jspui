@@ -15,7 +15,6 @@
 <%@ taglib uri="http://www.dspace.org/dspace-tags.tld" prefix="dspace" %>
 
 <%@ page contentType="text/html;charset=UTF-8" %>
-
 <%@ page import="java.util.List"%>
 <%@ page import="java.util.Enumeration"%>
 <%@ page import="org.dspace.app.webui.util.JSPManager" %>
@@ -63,11 +62,8 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
-		<!-- Hojas de estilo para la barra flotante iconos y parametros -->
-	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
-		<!--Buttons Agregados para la Seccion de Servicios-->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" />
+		<!--Iconos Open Source Google-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 				
 <%
     if (!"NONE".equals(feedRef))
@@ -185,29 +181,27 @@
 
 	
 	<div class="left" id="flotante">
-		<div class="item">
-			<i class="fas fa-fw fa-bars"></i>
-		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/">
-			<i class="fas fa-fw fa-home"></i>Aramara
+		
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/"> 	
+			<i class="material-icons">home</i> Aramara
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
-			<i class="fas fa-fw fa-users"></i> Comunidades
+			<i class="material-icons">people</i> Comunidades
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
-			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
+			<i class="material-icons">bookmark</i> Políticas Inst.
 		</div>
 		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
-			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
+			<i class="material-icons">description</i> Publicaciones
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/self-archive">
-			<i class="fas fa-fw fa-file-text"></i> Auto Archivo
+			<i class="material-icons">library_add</i> Auto Archivo
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/statics">
-			<i class="fas fa-fw fa-bar-chart"></i> Estadísticas
+			<i class="material-icons">donut_small</i> Estadísticas
 		</div>
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
-			<i class="fas fa-fw fa-address-book"></i> Contacto
+			<i class="material-icons">assignment_ind</i> Contacto
 		</div>
 	</div>
 <main id="content" role="main">
