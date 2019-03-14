@@ -98,8 +98,6 @@
 		   <li><a href="<%= request.getContextPath() %>/community-list">Comunidades</a></li>
            <li><a href="<%= request.getContextPath() %>/policy">Políticas Institucionales</a></li>
 		   <li><a href="<%= request.getContextPath() %>/jspui/browse?type=dateissued">Publicaciones</a></li>
-		   <li><a href="<%= request.getContextPath() %>/self-archive">Auto Archivo</a></li>
-		   <li><a href="<%= request.getContextPath() %>/statics">Estadísticas</a></li>
 		   <li><a href="#contacto_ref">Contacto</a></li>
 		
            <li class="dropdown">

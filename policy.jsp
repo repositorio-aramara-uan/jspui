@@ -44,8 +44,8 @@
 
 <%@ taglib uri="http://www.dspace.org/dspace-tags.tld" prefix="dspace" %>
 
-
 <dspace:layout titlekey="jsp.policy.title">
+
 	</br>
 	<H1 align="center"> Políticas Institucionales </H1>
 	<p></p>

@@ -200,12 +200,6 @@
 		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
 			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
 		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/self-archive">
-			<i class="fas fa-fw fa-file-text"></i> Auto Archivo
-		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/statics">
-			<i class="fas fa-fw fa-bar-chart"></i> Estadísticas
-		</div>
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
 			<i class="fas fa-fw fa-address-book"></i> Contacto
 		</div>
