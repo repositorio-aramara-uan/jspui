@@ -221,21 +221,20 @@ if (submissions != null && submissions.count() > 0)
 <div class="container">
 	<div class="row">
 		<div class="site-heading text-center">
-						<h3>Noticias</h3>
-						<p>Conoce nuestras página de Facebook</p>
-						<div class="border"></div>
-					</div>
-	</div>
-	<div class="row text-center">
-			<div class="col-sm-5 col-md-1">
-			</div> <!-- End Col -->	
-			<div class="col-sm-5">
-			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="events" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
-			</div> <!-- End Col -->							
-			<div class="col-sm-5">
-			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
-			</div> <!-- End Col -->	
-    </div>
+			<h3>Noticias</h3>
+			<p>Conoce nuestras página de Facebook</p>
+			<div class="border"></div>
+		</div>
+		
+		<div class="col-sm-5 col-md-1">
+	    </div> <!-- End Col -->	
+	    <div class="col-sm-5">
+			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="events" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
+		</div> <!-- End Col -->							
+		<div class="col-sm-5">
+			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
+		</div> <!-- End Col -->	
+</div>
 </div>
 </div>
 <hr>
