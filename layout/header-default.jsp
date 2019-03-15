@@ -224,16 +224,16 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
+					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/36"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg"></a>
+					  <a href="http://aramara.uan.mx:8080/handle/123456789/191"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg"></a>
+					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg"></a>
 					</li>
 				</ul>
 			</div>
