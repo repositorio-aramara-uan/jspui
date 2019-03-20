@@ -238,11 +238,7 @@ if (submissions != null && submissions.count() > 0)
 </div>
 </div>
 <hr>
-
-    </div>
-	<div class="col-md-4">
-    <%= sideNews %>
-</div>
+</div>	
 <div class="container row">
 <%
 if (communities != null && communities.size() != 0)
