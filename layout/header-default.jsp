@@ -15,7 +15,6 @@
 <%@ taglib uri="http://www.dspace.org/dspace-tags.tld" prefix="dspace" %>
 
 <%@ page contentType="text/html;charset=UTF-8" %>
-
 <%@ page import="java.util.List"%>
 <%@ page import="java.util.Enumeration"%>
 <%@ page import="org.dspace.app.webui.util.JSPManager" %>
@@ -62,14 +61,9 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
-		<!-- Hojas de estilo para la barra flotante iconos y parametros -->
-	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
-		<!--Buttons Agregados para la Seccion de Servicios-->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
 		<!--Iconos Open Source Google-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-				
 				
 <%
     if (!"NONE".equals(feedRef))
@@ -156,8 +150,13 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
 
+
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
+
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2"></script>
+
 
 <a class="sr-only" href="#content">Skip navigation</a>
 <header class="navbar navbar-inverse navbar-fixed-top">    
@@ -180,6 +179,7 @@
     }
 %>
 </header>
+
 
 	
 	<div class="left" id="flotante">
@@ -209,14 +209,21 @@
 <main id="content" role="main">
 <div class="container banner">
     <div class="row">
-		<div class="col-md-13" align="center">
+	<div class="col-md-2">
+    <img alt="Logo" class="img-responsive" src="image/ARAMARA V8.png" style="max-height: 140px !important" /> 
+	</div>
+		<div class="col-md-8" align="center">
             <div class="pull-center" align="center">
-				<h1>Repositorio Institucional Aramara</h1>
-				<p><b>Comunidad Científica Virtual de Acceso Abierto</b><p/>
+				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
+				<p><b>Comunidad Cientifica Virtual de Acceso Abierto</b><p/>
                 <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
 			</div>
+			</div>
              <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
-		</div>
+	<div class="col-md-2">
+    <img alt="Logo" class="img-responsive" src="image/OPEN ACCESS CHAQUIRA.png" style="max-height: 140px !important" /> 
+	</div>
+	</div>
 	</div>
 <div class="container">
     <div class="row">
@@ -227,19 +234,16 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
+					  <a href="#slide1"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg" alt="Bienvenido"></a>
 					</li>
 					<li>
-					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
+					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Bienvenido"></a>
 					</li>
 					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/36"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg"></a>
+					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="Bienvenido"></a>
 					</li>
 					<li>
-					  <a href="http://aramara.uan.mx:8080/handle/123456789/191"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg"></a>
-					</li>
-					<li>
-					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/slide05.jpg"></a>
+					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg" alt="Bienvenido"></a>
 					</li>
 				</ul>
 			</div>
