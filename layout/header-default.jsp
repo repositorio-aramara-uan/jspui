@@ -196,7 +196,6 @@
     }
 %>
 </header>
-	
 	<div class="left" id="flotante">
 		<div class="item">
 			<i class="fas fa-fw fa-bars"></i>
@@ -217,18 +216,26 @@
 			<i class="fas fa-fw fa-address-book"></i> Contacto
 		</div>
 	</div>
-<main id="content" role="main">
-<div class="container banner">
-    <div class="row">
-		<div class="col-md-13" align="center">
+	<main id="content" role="main">
+		<div class="container banner">
+			<div class="row">
+				<div class="col-md-2" align="center">
+					<img alt="Logo" class="img-responsive" src="/image/aramara_logo.png" style="max-height: 256px" /> 
+				</div>
+		<div class="col-md-8" align="center">
             <div class="pull-center" align="center">
 				<h1>Repositorio Institucional Aramara</h1>
-				<p><b>Comunidad Científica Virtual de Acceso Abierto</b><p/>
-                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
+				<p><b>Comunidad Cientifica Virtual de Acceso Abierto</b><p/>
+                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true">
+				</div>				
 			</div>
-             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
 		</div>
-	</div>
+             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
+				<div class="col-md-2" align="center">
+					<img alt="Logo" class="img-responsive" src="/image/open_access_chaquira.png" style="max-height: 256px" /> 
+				</div>
+			</div>
+		</div>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -238,10 +245,10 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
+					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
 					</li>
 					<li>
-					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/63" ><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
 					</li>
 					<li>
 					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/36"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg"></a>
