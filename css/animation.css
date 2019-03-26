@@ -1,0 +1,17 @@
+.giro-anim:hover {
+        -webkit-animation: rotate .3s linear 0s 1 normal ;
+        animation: rotate .3s linear 0s 1 normal ;
+        }
+
+        @-webkit-keyframes rotate {
+        100%{
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+        }
+
+        @keyframes rotate {
+        100%{
+            transform: rotate(360deg);
+        }
+        }
