@@ -54,6 +54,18 @@
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootstrap.min.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <!-- Archivo css de la libreria 'slippry', plugin del carousel de imagenes -->
+        <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/prueba.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
+		<!-- Hojas de estilo para la barra flotante iconos y parametros -->
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+		<!--Buttons Agregados para la Seccion de Servicios-->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" />
 <%
     if (!"NONE".equals(feedRef))
     {
@@ -85,6 +97,9 @@
 	<script type='text/javascript' src='<%= request.getContextPath() %>/static/js/holder.js'></script>
 	<script type="text/javascript" src="<%= request.getContextPath() %>/utils.js"></script>
     <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/choice-support.js"> </script>
+
+        <!-- Archivo javascript de la libreria 'slippry', plugin del carousel de imagenes -->
+        <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/slippry/slippry.min.js"> </script>
 
     <%--Gooogle Analytics recording.--%>
     <%
@@ -122,6 +137,32 @@
     <%-- HACK: leftmargin, topmargin: for non-CSS compliant Microsoft IE browser --%>
     <%-- HACK: marginwidth, marginheight: for non-CSS compliant Netscape browser --%>
     <body class="undernavigation">
+
+	
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+</script>
+
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
+
 <a class="sr-only" href="#content">Skip navigation</a>
 <header class="navbar navbar-inverse navbar-fixed-top">    
     <%
@@ -143,18 +184,71 @@
     }
 %>
 </header>
-
+	
+	<div class="left" id="flotante">
+		<div class="item">
+			<i class="fas fa-fw fa-bars"></i>
+		</div>
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/">
+			<i class="fas fa-fw fa-home"></i>Aramara
+		</div>
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
+			<i class="fas fa-fw fa-users"></i> Comunidades
+		</div>
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
+			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
+		</div>
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/browse?type=dateissued">
+			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
+		</div>
+		<div class="item item-lateral" onclick=location.href="#contacto_ref">
+			<i class="fas fa-fw fa-address-book"></i> Contacto
+		</div>
+	</div>
 <main id="content" role="main">
 <div class="container banner">
-	<div class="row">
-		<div class="col-md-9 brand">
-		<h1><fmt:message key="jsp.layout.header-default.brand.heading" /></h1>
-        <fmt:message key="jsp.layout.header-default.brand.description" /> 
-        </div>
-        <div class="col-md-3"><img class="pull-right" src="<%= request.getContextPath() %>/image/logo.gif" alt="DSpace logo" />
-        </div>
+    <div class="row">
+		<div class="col-md-13" align="center">
+            <div class="pull-center" align="center">
+				<h1>Repositorio Institucional Aramara</h1>
+				<p><b>Comunidad Científica Virtual de Acceso Abierto</b><p/>
+                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
+			</div>
+             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
+		</div>
 	</div>
-</div>	
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+		</div>
+	
+			<!-- Inicio - Carousel de imagenes -->
+			<div style="margin-center: -2em !important">
+				<ul id="slider">
+					<li>
+					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
+					</li>
+					<li>
+					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/36"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/handle/123456789/191"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg"></a>
+					</li>
+					<li>
+					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/slide05.jpg"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- Fin - Carousel de imagenes -->
+	</div>
+</div>
+</div>
+    </div>
+</div>
+<br/>
 <br/>
                 <%-- Location bar --%>
 <%

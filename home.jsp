@@ -153,6 +153,81 @@ if (submissions != null && submissions.count() > 0)
 <%
 }
 %>
+<div class="container text-center">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12"> 
+            <div class="service-heading-block">
+                <h2 class="text-center">Conoce Nuestros Recursos</h2>
+            </div>             
+            </div> 
+			<a href="<%= request.getContextPath() %>/policy.jsp" target="_blank" title="" class="color-info">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="text-center feature-block">
+                <span class="fb-icon color-info">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                </span>
+				<h3>Políticas</h3>
+              </div>
+            </div>
+			</a>
+            
+			<a href="<%= request.getContextPath() %>/browse?type=title" target="_blank" title="" class="color-warning">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="text-center feature-block">
+                <span class="fb-icon color-warning">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                </span>
+                <h3>Publicaciones</h3>
+              </div>
+              </div>
+			</a>
+			  
+			<a href="<%= request.getContextPath() %>/community-list" target="_blank" title="" class="color-success ">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="text-center feature-block">
+                <span class="fb-icon color-success">
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                </span>
+                <h3>Comunidades</h3>
+              </div>
+            </div>
+			</a>
+            
+			<a href="<%= request.getContextPath() %>/browse?type=dateissued" target="_blank" title="" class="color-danger ">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+             <div class="text-center feature-block">
+                <span class="fb-icon color-danger">
+                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                </span>
+                <h3>Novedades</h>
+              </div>
+            </div>
+			</a>
+            </div>          
+</div>  
+<hr>
+<div class="blog-section paddingTB60 ">
+<div class="container">
+	<div class="row">
+		<div class="site-heading text-center">
+			<h3>Noticias</h3>
+			<p>Conoce nuestras página de Facebook</p>
+			<div class="border"></div>
+		</div>
+		
+		<div class="col-sm-5 col-md-1">
+	    </div> <!-- End Col -->	
+	    <div class="col-sm-5">
+			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="events" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
+		</div> <!-- End Col -->							
+		<div class="col-sm-5">
+			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
+		</div> <!-- End Col -->	
+</div>
+</div>
+</div>
+<hr>
+</div>	
 <div class="col-md-4">
     <%= sideNews %>
 </div>
