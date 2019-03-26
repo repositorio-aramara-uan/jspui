@@ -64,6 +64,8 @@
 		<!--Iconos Open Source Google-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/animation.css" type="text/css" />
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+		
 
 				
 <%
