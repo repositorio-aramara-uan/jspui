@@ -241,6 +241,8 @@ if (submissions != null && submissions.count() > 0)
     <canvas id="grafica1"></canvas>
   <script>
   var ctx = document.getElementById('grafica1').getContext('2d');
+  ctx.canvas.width = 500;
+  ctx.canvas.height = 300;
   var grafica1 = new Chart(ctx, {
       type: 'doughnut',
       data: {
@@ -278,6 +280,8 @@ if (submissions != null && submissions.count() > 0)
     <canvas id="grafica2" ></canvas>
   <script>
   var ctx = document.getElementById('grafica2').getContext('2d');
+  ctx.canvas.width = 380;
+  ctx.canvas.height = 515;
   var grafica2 = new Chart(ctx, {
       type: 'doughnut',
       data: {
@@ -314,6 +318,8 @@ if (submissions != null && submissions.count() > 0)
     <canvas id="grafica3"></canvas>
   <script>
   var ctx = document.getElementById('grafica3').getContext('2d');
+  ctx.canvas.width = 320;
+  ctx.canvas.height = 434;
   var grafica3 = new Chart(ctx, {
       type: 'doughnut',
       data: {
