@@ -63,6 +63,8 @@
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
 		<!--Iconos Open Source Google-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/animation.css" type="text/css" />
+
 				
 <%
     if (!"NONE".equals(feedRef))
@@ -195,7 +197,6 @@
     }
 %>
 </header>
-	
 	<div class="left" id="flotante">
 		
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/"> 	
@@ -220,25 +221,26 @@
 			<i class="material-icons">assignment_ind</i> Contacto
 		</div>
 	</div>
-<main id="content" role="main">
-<div class="container banner">
-    <div class="row">
-	<div class="col-md-2">
-    <img alt="Logo" class="img-responsive" src="image/ARAMARA V8.png" style="max-height: 300px !important" /> 
-	</div>
+	<main id="content" role="main">
+		<div class="container banner">
+			<div class="row">
+				<div class="col-md-2 pull-center">
+					<img alt="Logo" class="img-responsive" src="image/ARAMARA V8.png" style="max-height: 500px !important" /> 
+				</div>
 		<div class="col-md-8" align="center">
             <div class="pull-center" align="center">
 				<h1>Bienvenido al Repositorio Institucional Aramara</h1>
 				<p><b>Comunidad Cientifica Virtual de Acceso Abierto</b><p/>
-                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
+                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true">
+				</div>				
 			</div>
-			</div>
+		</div>
              <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
-	<div class="col-md-2">
-    <img alt="Logo" class="img-responsive" src="image/OPEN ACCESS CHAQUIRA.png" style="max-height: 190px !important; margin-top: -.8em !important" /> 
-	</div>
-	</div>
-	</div>
+				<div class="col-md-2">
+					<img alt="Logo" class="img-responsive" src="image/OPEN ACCESS CHAQUIRA.png" style="max-height: 190px !important; margin-top: -.8em !important" /> 
+				</div>
+			</div>
+		</div>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
