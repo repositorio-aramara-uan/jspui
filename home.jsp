@@ -167,9 +167,11 @@ if (submissions != null && submissions.count() > 0)
 <div class="container text-center">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12"> 
-            <div class="service-heading-block">
-                <h2 class="text-center">Conoce Nuestros Recursos</h2>
-            </div>             
+            <div class="site-heading text-center">
+			<h3>Recursos</h3>
+			<p>Conoce nuestros recursos</p>
+			<div class="border"></div>
+		</div>
             </div> 
 			<a href="<%= request.getContextPath() %>/policy.jsp" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -242,7 +244,7 @@ if (submissions != null && submissions.count() > 0)
 	<div class="row">
 		<div class="site-heading text-center">
 			<h3>Estadísticas</h3>
-			<p>Conoce nuestras Estadísticas</p>
+			<p>Conoce nuestras estadísticas</p>
 			<div class="border"></div>
 		</div>
 </div>	
