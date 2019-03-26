@@ -1,0 +1,35 @@
+.button {
+  height: 50px;
+    width: 140px;
+    background: #585858;
+    margin: 0px;
+    float: left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;
+	border-radius: 1px;
+}
+
+.button:hover{
+    -webkit-transform: scale(1.1);
+    background: #2E2E2E;
+}
+
+.home{
+	height: 50px;
+    width: 140px;
+    background: #0A3D62;
+    margin: 0px;
+    float: left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;
+	border-radius: 1px;
+}
+
+.home:hover{
+    -webkit-transform: scale(1.1);
+    background: #0B173B;
+}
