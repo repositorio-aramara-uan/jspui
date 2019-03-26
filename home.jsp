@@ -238,6 +238,13 @@ if (submissions != null && submissions.count() > 0)
 </div>
 </div>
 <hr>
+<div class="container">
+	<div class="row">
+		<div class="site-heading text-center">
+			<h3>Estadísticas</h3>
+			<p>Conoce nuestras Estadísticas</p>
+			<div class="border"></div>
+		</div>
 </div>	
 <div class="container row">
 <%
