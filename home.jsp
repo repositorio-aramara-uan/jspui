@@ -166,7 +166,7 @@ if (submissions != null && submissions.count() > 0)
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
-                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                  <i class="fa fa-bookmark" aria-hidden="true"></i>
                 </span>
 				<h3>Políticas</h3>
               </div>
