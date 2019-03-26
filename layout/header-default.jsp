@@ -210,7 +210,7 @@
 <div class="container banner">
     <div class="row">
 	<div class="col-md-2">
-    <img alt="Logo" class="img-responsive" src="image/ARAMARA V8.png" style="max-height: 140px !important" /> 
+    <img alt="Logo" class="img-responsive" src="image/ARAMARA V8.png" style="max-height: 300px !important" /> 
 	</div>
 		<div class="col-md-8" align="center">
             <div class="pull-center" align="center">
@@ -221,7 +221,7 @@
 			</div>
              <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
 	<div class="col-md-2">
-    <img alt="Logo" class="img-responsive" src="image/OPEN ACCESS CHAQUIRA.png" style="max-height: 140px !important" /> 
+    <img alt="Logo" class="img-responsive" src="image/OPEN ACCESS CHAQUIRA.png" style="max-height: 190px !important; margin-top: -.8em !important" /> 
 	</div>
 	</div>
 	</div>
