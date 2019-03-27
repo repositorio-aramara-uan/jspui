@@ -18,6 +18,12 @@
 <%@ page import="java.net.URLEncoder" %>
 <%@ page import="org.dspace.app.webui.util.UIUtil" %>
 
+		
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
+
+
 <%
     String sidebar = (String) request.getAttribute("dspace.layout.sidebar");
 %>
@@ -38,17 +44,43 @@
 </div>
 </main>
             <%-- Page footer --%>
-             <footer class="navbar navbar-inverse navbar-bottom">
-             <div id="designedby" class="container text-muted">
-             <fmt:message key="jsp.layout.footer-default.theme-by"/> <a href="http://www.cineca.it"><img
-                                    src="<%= request.getContextPath() %>/image/logo-cineca-small.png"
-                                    alt="Logo CINECA" /></a>
-			<div id="footer_feedback" class="pull-right">                                    
-                                <p class="text-muted"><fmt:message key="jsp.layout.footer-default.text"/>&nbsp;-
-                                <a target="_blank" href="<%= request.getContextPath() %>/feedback"><fmt:message key="jsp.layout.footer-default.feedback"/></a>
-                                <a href="<%= request.getContextPath() %>/htmlmap"></a></p>
-                                </div>
-			</div>
-    </footer>
+             <footer class="navbar navbar-inverse navbar-bottom" id="contacto_ref">
+			 <div class="row">
+			 <div class="col-md-3">
+				<a href="https://www.conacyt.gob.mx/" target="_blank" >
+					<img src="image/Logotipo_de_la_CONACYT.png" class="img-responsive" id="logo-conacyt" alt="Conacyt" />
+				</a>
+			 </div>
+			 <div class="col-md-6" align="center">
+                    <ul class="social-network social-circle" >
+						<h3 id="contacto">Contacto</h3>
+                        <li><a href="http://dspace.uan.mx:8080/jspui/feed/rss_2.0/site" target="_blank" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="https://www.facebook.com/AramaraRI/" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/AramaraRi" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/aramarari/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="mailto:aramara@uan.edu.mx" target="_blank" class="icoEnvelope" title="Correo"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+						<p id="info">UNIVERSIDAD AUTÓNOMA DE NAYARIT
+						<br>
+						Ciudad de la Cultura "Amado Nervo".
+						<br>
+						Tepic, Nayarit. México. C.P. 63155
+						<br>
+						Tel. (311) 211 8800.
+						<br>
+						<a href="mailto:contacto@uan.edu.mx" target="_blank" title="Correo">contacto@uan.edu.mx</a>
+						<br>
+						<a href="http://www.uan.edu.mx" target="_blank" >http://www.uan.edu.mx</a>
+						<br>
+						</p>
+			 </div>
+			 <div class="col-md-3">				
+				<a href="http://www.uan.edu.mx" target="_blank" >
+					<img src="image/logoUAN.png" class="img-responsive" id="logo-uan" alt="UAN" />
+				</a>
+			 </div>
+			 </div>
+			 
+			 </footer>
     </body>
 </html>
