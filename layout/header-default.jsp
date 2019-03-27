@@ -118,6 +118,13 @@
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
         </script>
+		
+		<script>
+            jQuery(document).ready(function(){
+                jQuery('#slider').slippry()
+            });
+				 
+        </script>
     <%
     }
     if (extraHeadDataLast != null)
