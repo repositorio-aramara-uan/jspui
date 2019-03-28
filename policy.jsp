@@ -43,7 +43,7 @@
 <dspace:layout titlekey="jsp.policy.title">
 
 	</br>
-	<H1 align="center"> PolĂ­ticas Institucionales </H1>
+	<H1 align="center"> Políticas Institucionales </H1>
 	<p></p>
 	</br>
 	<embed src="<%= request.getContextPath() %>/documents/politicas.pdf" type="application/pdf" width="100%" height="600px" />

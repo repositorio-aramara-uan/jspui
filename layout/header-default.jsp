@@ -118,13 +118,7 @@
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
         </script>
-		
-		<script>
-            jQuery(document).ready(function(){
-                jQuery('#slider').slippry()
-            });
-				 
-        </script>
+
     <%
     }
     if (extraHeadDataLast != null)
@@ -133,7 +127,7 @@
 		<%
 		    }
     %>
-    
+
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -146,6 +140,12 @@
     <%-- HACK: marginwidth, marginheight: for non-CSS compliant Netscape browser --%>
     <body class="undernavigation">
 
+		<script>
+            jQuery(document).ready(function(){
+                jQuery('#slider').slippry()
+            });
+				 
+        </script>
 	
 <script>
   window.fbAsyncInit = function() {
