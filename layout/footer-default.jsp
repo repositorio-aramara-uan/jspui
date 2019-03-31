@@ -19,9 +19,6 @@
 <%@ page import="org.dspace.app.webui.util.UIUtil" %>
 
 		
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
-		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
 
 
 <%
