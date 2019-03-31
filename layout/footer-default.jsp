@@ -65,7 +65,7 @@
 						<br>
 						Tel. (311) 211 8800.
 						<br>
-						<a href="mailto:contacto@uan.edu.mx" target="_blank" title="Correo">contacto@uan.edu.mx</a>
+						<a href="mailto:aramara@uan.edu.mx" target="_blank" title="Correo">aramara@uan.edu.mx</a>
 						<br>
 						<a href="http://www.uan.edu.mx" target="_blank" >http://www.uan.edu.mx</a>
 						<br>
