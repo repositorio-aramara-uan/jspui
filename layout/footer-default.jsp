@@ -45,7 +45,7 @@
 			 <div class="row">
 			 <div class="col-md-3">
 				<a href="https://www.conacyt.gob.mx/" target="_blank" >
-					<img src="image/Logotipo_de_la_CONACYT.png" class="img-responsive" id="logo-conacyt" alt="Conacyt" />
+					<img src="/image/Logotipo_de_la_CONACYT.png" class="img-responsive" id="logo-conacyt" alt="Conacyt" />
 				</a>
 			 </div>
 			 <div class="col-md-6" align="center">
@@ -74,7 +74,7 @@
 			 </div>
 			 <div class="col-md-3">				
 				<a href="http://www.uan.edu.mx" target="_blank" >
-					<img src="image/logoUAN.png" class="img-responsive" id="logo-uan" alt="UAN" />
+					<img src="/image/logoUAN.png" class="img-responsive" id="logo-uan" alt="UAN" />
 				</a>
 			 </div>
 			 </div>
