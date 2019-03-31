@@ -1,4 +1,4 @@
-<%--
+﻿<%--
 
     The contents of this file are subject to the license and copyright
     detailed in the LICENSE and NOTICE files at the root of the source
@@ -225,7 +225,7 @@
 		<div class="col-md-8" align="center">
             <div class="pull-center" align="center">
 				<h1>Repositorio Institucional Aramara</h1>
-				<p><b>Comunidad Cientifica Virtual de Acceso Abierto</b><p/>
+				<p><b>Comunidad Científica Virtual de Acceso Abierto</b><p/>
                 <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true">
 				</div>				
 			</div>
