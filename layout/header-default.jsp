@@ -57,7 +57,7 @@
         <!-- Archivo css de la libreria 'slippry', plugin del carousel de imagenes -->
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons.css" type="text/css" />
-		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/prueba.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/navigation-bar.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
@@ -66,6 +66,10 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
 		<!--Buttons Agregados para la Seccion de Servicios-->
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" />
+		<!--Footer-->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
 <%
     if (!"NONE".equals(feedRef))
     {
