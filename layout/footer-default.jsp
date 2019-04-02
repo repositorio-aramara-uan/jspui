@@ -63,7 +63,7 @@
 						<br>
 						Tepic, Nayarit. México. C.P. 63155
 						<br>
-						Tel. (311) 211 8800.
+						Tel. (311) 211 8800 ext. 6751
 						<br>
 						<a href="mailto:aramara@uan.edu.mx" target="_blank" title="Correo">aramara@uan.edu.mx</a>
 						<br>
