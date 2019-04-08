@@ -244,11 +244,11 @@ if (submissions != null && submissions.count() > 0)
   ctx.canvas.width = 500;
   ctx.canvas.height = 300;
   var grafica1 = new Chart(ctx, {
-      type: 'doughnut',
+      type: 'bar',
       data: {
           labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
           datasets: [{
-              label: '# of Votes',
+              label: 'Vistas',
               data: [12, 19, 3, 5, 2, 3],
               backgroundColor: [
                   'rgba(255, 99, 132, 1)',
