@@ -239,6 +239,135 @@ if (submissions != null && submissions.count() > 0)
 </div>
 <hr>
 </div>	
+
+<div class="container">
+	<div class="row">
+		<div class="site-heading text-center">
+			<h3>Estadísticas</h3>
+			<p>Conoce nuestras estadísticas</p>
+			<div class="border"></div>
+			<div class="row">
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
+	<h2>Lo más visitado</h2>
+    <canvas id="grafica1"></canvas>
+  <script>
+  var ctx = document.getElementById('grafica1').getContext('2d');
+  ctx.canvas.width = 500;
+  ctx.canvas.height = 300;
+  var grafica1 = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+              label: 'Vistas',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255,1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      }
+  });
+  </script>
+  <br>
+  </div>
+  <div class="col-md-6">
+  <div class="row">
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
+	<h4>Autores más visitados</h4>
+    <canvas id="grafica2" ></canvas>
+  <script>
+  var ctx = document.getElementById('grafica2').getContext('2d');
+  ctx.canvas.width = 380;
+  ctx.canvas.height = 515;
+  var grafica2 = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255,1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      }
+  });
+  </script>
+    <br>
+  </div>
+
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
+  <h4>Publicaciones más visitadas</h4>
+    <canvas id="grafica3"></canvas>
+  <script>
+  var ctx = document.getElementById('grafica3').getContext('2d');
+  ctx.canvas.width = 320;
+  ctx.canvas.height = 434;
+  var grafica3 = new Chart(ctx, {
+      type: 'doughnut',
+      data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255,1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      }
+  });
+  </script>
+  <br>
+  </div>
+  </div>
+  </div>
+  </div>
+			
+		</div>
+</div>	
+<hr>
 <div class="container row">
 <%
 if (communities != null && communities.size() != 0)

@@ -102,7 +102,9 @@
 
         <!-- Archivo javascript de la libreria 'slippry', plugin del carousel de imagenes -->
         <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/slippry/slippry.min.js"> </script>
-		
+	
+	<!-- Graficas de estadisticas -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
 
         <dspace:include page="/layout/google-analytics-snippet.jsp" />
 
