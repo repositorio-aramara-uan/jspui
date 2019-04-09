@@ -154,7 +154,8 @@ if (submissions != null && submissions.count() > 0)
 }
 %>
 <div class="container text-center">
-          <div class="row">
+<!--Icon made by Freepik from www.flaticon.com -->
+			<div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12"> 
             <div class="site-heading text-center">
 			<h3>Recursos</h3>
@@ -166,20 +167,19 @@ if (submissions != null && submissions.count() > 0)
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
-                  <i class="fa fa-bookmark" aria-hidden="true"></i>
+                  <img src="image/documento.png"/>
                 </span>
-				<h3>Políticas</h3>
+				<h3>Artículos Científicos</h3>
               </div>
             </div>
 			</a>
-            
 			<a href="<%= request.getContextPath() %>/browse?type=title" target="_blank" title="" class="color-warning">
             <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-warning">
-                  <i class="fa fa-book" aria-hidden="true"></i>
+                  <img src="image/libros-en-pila-de-tres.png"/>
                 </span>
-                <h3>Publicaciones</h3>
+                <h3>Libros</h3>
               </div>
               </div>
 			</a>
@@ -188,9 +188,9 @@ if (submissions != null && submissions.count() > 0)
 			<div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-success">
-                  <i class="fa fa-users" aria-hidden="true"></i>
+                  <img src="image/libro-abierto-visto-de-arriba.png"/>
                 </span>
-                <h3>Comunidades</h3>
+                <h3>Capítulos de Libros</h3>
               </div>
             </div>
 			</a>
@@ -199,9 +199,9 @@ if (submissions != null && submissions.count() > 0)
             <div class="col-lg-3 col-md-6 col-sm-6">
              <div class="text-center feature-block">
                 <span class="fb-icon color-danger">
-                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                  <img src="image/tesis.png"/>
                 </span>
-                <h3>Novedades</h>
+                <h3>Tesis de Posgrado</h>
               </div>
             </div>
 			</a>
@@ -249,7 +249,7 @@ if (submissions != null && submissions.count() > 0)
           labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
           datasets: [{
               label: 'Vistas',
-              data: [12, 19, 3, 5, 2, 3],
+              data: [12, 19, 3, 5, 5, 3],
               backgroundColor: [
                   'rgba(255, 99, 132, 1)',
                   'rgba(54, 162, 235, 1)',
