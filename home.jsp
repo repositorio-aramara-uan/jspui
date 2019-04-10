@@ -179,7 +179,7 @@ if (submissions != null && submissions.count() > 0)
                 <span class="fb-icon color-warning">
                   <img src="image/libros-en-pila-de-tres.png"/>
                 </span>
-                <h3>Libro</h3>
+                <h3>Libros</h3>
               </div>
               </div>
 			</a>
@@ -190,7 +190,7 @@ if (submissions != null && submissions.count() > 0)
                 <span class="fb-icon color-success">
                   <img src="image/libro-abierto-visto-de-arriba.png"/>
                 </span>
-                <h3>Capítulo de Libro</h3>
+                <h3>Capítulos de Libros</h3>
               </div>
             </div>
 			</a>
