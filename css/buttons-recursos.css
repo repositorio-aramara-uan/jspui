@@ -43,19 +43,19 @@
   transform: rotate(360deg);
 }
 .fb-icon.color-info {
-  background-color:#33ffbd;
+  background-color:#0079C0;
   color: #fff;
 }
 .fb-icon.color-warning {
-  background-color: #4f97df;
+  background-color: #009BD2;
   color: #fff;
 }
 .fb-icon.color-success {
-  background-color: #6670ec;
+  background-color: #59a8f9;
   color: #fff;
 }
 .fb-icon.color-danger {
-  background-color: #ffbd33;
+  background-color: #F88624;
   color: #fff;
 }
 .feature-block h4 {
@@ -64,16 +64,16 @@
   margin: 3rem 0 1rem;
 }
 .color-info {
-  color: #33ffbd;
+  color: #0079C0;
 }
 .color-warning {
-  color: #4f97df;
+  color: #009BD2;
 }
 .color-success {
-  color: #6670ec;
+  color: #59a8f9;
 }
 .color-danger {
-  color: #ffbd33;
+  color: #F88624;
 }
 .btn-custom
 {
