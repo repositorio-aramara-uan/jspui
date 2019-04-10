@@ -163,7 +163,7 @@ if (submissions != null && submissions.count() > 0)
 			<div class="border"></div>
 		</div>
             </div> 
-			<a href="<%= request.getContextPath() %>/policy.jsp" target="_blank" title="" class="color-info">
+			<a href="<%= request.getContextPath() %>/handle/123456789/11" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
@@ -173,29 +173,29 @@ if (submissions != null && submissions.count() > 0)
               </div>
             </div>
 			</a>
-			<a href="<%= request.getContextPath() %>/browse?type=title" target="_blank" title="" class="color-warning">
+			<a href="<%= request.getContextPath() %>/handle/123456789/14" target="_blank" title="" class="color-warning">
             <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-warning">
                   <img src="image/libros-en-pila-de-tres.png"/>
                 </span>
-                <h3>Libros</h3>
+                <h3>Libro</h3>
               </div>
               </div>
 			</a>
 			  
-			<a href="<%= request.getContextPath() %>/community-list" target="_blank" title="" class="color-success ">
+			<a href="<%= request.getContextPath() %>handle/123456789/12" target="_blank" title="" class="color-success ">
 			<div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-success">
                   <img src="image/libro-abierto-visto-de-arriba.png"/>
                 </span>
-                <h3>Capítulos de Libros</h3>
+                <h3>Capítulo de Libro</h3>
               </div>
             </div>
 			</a>
             
-			<a href="<%= request.getContextPath() %>/browse?type=dateissued" target="_blank" title="" class="color-danger ">
+			<a href="<%= request.getContextPath() %>/handle/123456789/1056" target="_blank" title="" class="color-danger ">
             <div class="col-lg-3 col-md-6 col-sm-6">
              <div class="text-center feature-block">
                 <span class="fb-icon color-danger">
