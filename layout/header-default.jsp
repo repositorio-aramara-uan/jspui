@@ -248,7 +248,7 @@
 			<i class="material-icons">people</i> Comunidades
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
-			<i class="material-icons">bookmark</i> Políticas Inst.
+			<i class="material-icons">bookmark</i> Políticas
 		</div>
 		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
 			<i class="material-icons">description</i> Publicaciones

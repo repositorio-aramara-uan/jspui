@@ -34,13 +34,16 @@
     }
 
     .item {
-        height: 50px;
+        height: 45px;
         overflow: hidden;
         color: #fff;
+		display: flex;
+		align-items: center;
+   
     }
 	.material-icons
 	{
-		margin: 12px;
+		margin: 15px;
         width: 30px;
         color: #fff;
 		text-align: center;
