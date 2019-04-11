@@ -213,7 +213,7 @@ if (submissions != null && submissions.count() > 0)
 	<div class="row">
 		<div class="site-heading text-center">
 			<h3>Noticias</h3>
-			<p>Conoce nuestra página de Facebook</p>
+			<p>Conoce nuestro Canal de Youtube y nuestra página de Facebook</p>
 			<div class="border"></div>
 		</div>
 		
@@ -221,6 +221,9 @@ if (submissions != null && submissions.count() > 0)
 	    </div> <!-- End Col -->	
 	    <div class="col-sm-5">
 		<div class="youtube-player" data-id="PzAuxMoSYRI"></div>
+		<div>
+			<h4 align="center">Nuestro Canal:<a href="https://www.youtube.com/channel/UCbJ4U3RAv3O_Vezz71Tyn0Q?view_as=subscriber" target="_blank"> Repositorio Institucional Aramara</a></h4>
+		</div>
 		</div> <!-- End Col -->							
 		<div class="col-sm-5">
 			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline" data-width="380" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
