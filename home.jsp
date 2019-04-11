@@ -213,7 +213,7 @@ if (submissions != null && submissions.count() > 0)
 	<div class="row">
 		<div class="site-heading text-center">
 			<h3>Noticias</h3>
-			<p>Conoce nuestro Canal de Youtube y nuestra página de Facebook</p>
+			<p>Conoce nuestro canal de Youtube y nuestra página de Facebook</p>
 			<div class="border"></div>
 		</div>
 		
