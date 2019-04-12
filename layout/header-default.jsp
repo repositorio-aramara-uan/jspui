@@ -237,13 +237,13 @@
 			<i class="fas fa-fw fa-bars"></i>
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/">
-			<i class="fas fa-fw fa-home"></i>Aramara
+			<i class="fas fa-fw fa-home"></i> Aramara
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
 			<i class="fas fa-fw fa-users"></i> Comunidades
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
-			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
+			<i class="fas fa-fw fa-gavel"></i> Políticas
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/browse?type=dateissued">
 			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
