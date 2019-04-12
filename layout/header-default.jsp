@@ -55,12 +55,19 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/dspace-theme.css" type="text/css" />
         <!-- Archivo css de la libreria 'slippry', plugin del carousel de imagenes -->
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
+		<!--Hoja de estilo de la seccion de Recusos-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons-recursos.css" type="text/css" />
+		
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/navigation-bar.css" type="text/css" />
+		<!--Hoja de estilo del menú flotante-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
+		<!--Hoja de estilo de la seccion de noticias-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
+		<!--Hoja de estilo para ocultar el menú flotante-->
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
+		
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
+		<!--plugin de Youtube-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/youtube.css" type="text/css" />
 
 		<!--Iconos Open Source Google-->
