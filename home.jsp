@@ -223,7 +223,7 @@ if (submissions != null && submissions.count() > 0)
 			</div>
 		</div> <!-- End Col -->							
 		<div class="col-sm-5">
-			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true">
+			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline,events,messages" data-width="320" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
 				<blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore">
 					<a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a>
 				</blockquote>
