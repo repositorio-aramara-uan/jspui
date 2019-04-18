@@ -243,13 +243,13 @@ if (submissions != null && submissions.count() > 0)
 			<p>Conoce nuestras estadísticas</p>
 			<div class="border"></div>
 			<div class="row">
-  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px; padding-left: 3em; padding-right: 3em;">
 	<h2>Lo más visitado</h2>
     <canvas id="grafica1"></canvas>
   <script>
   var ctx = document.getElementById('grafica1').getContext('2d');
   ctx.canvas.width = 500;
-  ctx.canvas.height = 300;
+  ctx.canvas.height = 279;
   var grafica1 = new Chart(ctx, {
       type: 'bar',
       data: {
@@ -282,13 +282,13 @@ if (submissions != null && submissions.count() > 0)
   </div>
   <div class="col-md-6">
   <div class="row">
-  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
-	<h4>Autores más visitados</h4>
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px; padding-left: 3em; padding-right: 3em;">
+	<h4>Autores más visitados &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
     <canvas id="grafica2" ></canvas>
   <script>
   var ctx = document.getElementById('grafica2').getContext('2d');
-  ctx.canvas.width = 380;
-  ctx.canvas.height = 515;
+  ctx.canvas.width = 320;
+  ctx.canvas.height = 434;
   var grafica2 = new Chart(ctx, {
       type: 'doughnut',
       data: {
@@ -320,7 +320,7 @@ if (submissions != null && submissions.count() > 0)
     <br>
   </div>
 
-  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px; padding-left: 3em; padding-right: 3em;">
   <h4>Publicaciones más visitadas</h4>
     <canvas id="grafica3"></canvas>
   <script>
