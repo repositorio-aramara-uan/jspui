@@ -299,19 +299,25 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
+					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/aramara_banner_web.png"></a>
 					</li>
 					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/63" ><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
+					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/instituciones_repo.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide2"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"  alt="Bienvenido"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/221" ><img src="<%= request.getContextPath() %>/image/slider/suelo_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg" alt="Bienvenido"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1274"><img src="<%= request.getContextPath() %>/image/slider/alcohol_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="#slide3"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg" alt="Bienvenido"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/36"><img src="<%= request.getContextPath() %>/image/slider/energia_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/63 "><img src="<%= request.getContextPath() %>/image/slider/matematicas_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
 					</li>
 				</ul>
 			</div>
