@@ -287,19 +287,25 @@
 					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/instituciones_repo.jpg"></a>
 					</li>
 					<li>
+					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/65"><img src="<%= request.getContextPath() %>/image/slider/algebra_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1271"><img src="<%= request.getContextPath() %>/image/slider/orga_enfermeria_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1133"><img src="<%= request.getContextPath() %>/image/slider/medios_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1098"><img src="<%= request.getContextPath() %>/image/slider/ambiente_ria.jpg"></a>
+					</li>
+					<li>
 					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/221" ><img src="<%= request.getContextPath() %>/image/slider/suelo_ria.jpg"></a>
 					</li>
 					<li>
 					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1274"><img src="<%= request.getContextPath() %>/image/slider/alcohol_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/36"><img src="<%= request.getContextPath() %>/image/slider/energia_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/63 "><img src="<%= request.getContextPath() %>/image/slider/matematicas_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
 					</li>
 				</ul>
 			</div>
