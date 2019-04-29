@@ -60,9 +60,6 @@
 
 <dspace:layout locbar="nolink" titlekey="jsp.home.title" feedData="<%= feedData %>">
 
-	<div class="jumbotron">
-        <%= topNews %>
-	</div>
 
 <div class="row">
 <%
