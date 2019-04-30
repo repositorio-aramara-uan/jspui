@@ -122,10 +122,6 @@
 
         <dspace:include page="/layout/google-analytics-snippet.jsp" />
 
-        <script>
-            jQuery(document).ready(function(){
-                jQuery('#slider').slippry()
-            });
         </script>
 
     <%
