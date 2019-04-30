@@ -165,52 +165,55 @@ if (submissions != null && submissions.count() > 0)
 }
 %>
 <div class="container text-center">
-          <div class="row">
+<!--Icon made by Freepik from www.flaticon.com -->
+			<div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12"> 
-            <div class="service-heading-block">
-                <h2 class="text-center">Conoce Nuestros Recursos</h2>
-            </div>             
+            <div class="site-heading text-center">
+			<h3>Recursos</h3>
+			<p>Conoce nuestros recursos</p>
+			<div class="border"></div>
+		</div>
             </div> 
-			<a href="<%= request.getContextPath() %>/policy.jsp" target="_blank" title="" class="color-info">
+			<a href="<%= request.getContextPath() %>/handle/123456789/11" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
-                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                  <img src="image/documento.png"/>
                 </span>
-				<h3>Políticas</h3>
+				<h3>Artículos Científicos</h3>
               </div>
             </div>
 			</a>
-            
-			<a href="<%= request.getContextPath() %>/browse?type=title" target="_blank" title="" class="color-warning">
+			
+			<a href="<%= request.getContextPath() %>/handle/123456789/14" target="_blank" title="" class="color-warning">
             <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-warning">
-                  <i class="fa fa-book" aria-hidden="true"></i>
+                  <img src="image/libros-en-pila-de-tres.png"/>
                 </span>
-                <h3>Publicaciones</h3>
+                <h3>Libros</h3>
               </div>
               </div>
 			</a>
 			  
-			<a href="<%= request.getContextPath() %>/community-list" target="_blank" title="" class="color-success ">
+			<a href="<%= request.getContextPath() %>handle/123456789/12" target="_blank" title="" class="color-success ">
 			<div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-success">
-                  <i class="fa fa-users" aria-hidden="true"></i>
+                  <img src="image/libro-abierto-visto-de-arriba.png"/>
                 </span>
-                <h3>Comunidades</h3>
+                <h3>Capítulos de Libros</h3>
               </div>
             </div>
 			</a>
             
-			<a href="<%= request.getContextPath() %>/browse?type=dateissued" target="_blank" title="" class="color-danger ">
+			<a href="<%= request.getContextPath() %>/handle/123456789/1056" target="_blank" title="" class="color-danger ">
             <div class="col-lg-3 col-md-6 col-sm-6">
              <div class="text-center feature-block">
                 <span class="fb-icon color-danger">
-                  <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                  <img src="image/tesis.png"/>
                 </span>
-                <h3>Novedades</h>
+                <h3>Tesis de Posgrado</h>
               </div>
             </div>
 			</a>
@@ -222,23 +225,30 @@ if (submissions != null && submissions.count() > 0)
 	<div class="row">
 		<div class="site-heading text-center">
 			<h3>Noticias</h3>
-			<p>Conoce nuestras página de Facebook</p>
+			<p>Conoce nuestro canal de Youtube y nuestra página de Facebook</p>
 			<div class="border"></div>
 		</div>
 		
 		<div class="col-sm-5 col-md-1">
 	    </div> <!-- End Col -->	
 	    <div class="col-sm-5">
-			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="events" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
+			<div class="youtube-player" data-id="9dBwacffHnw"></div>
+			<div>
+				<h4 align="center">Nuestro canal:<a href="https://www.youtube.com/channel/UCbJ4U3RAv3O_Vezz71Tyn0Q?view_as=subscriber" target="_blank"> Repositorio Institucional Aramara</a></h4>
+			</div>
 		</div> <!-- End Col -->							
 		<div class="col-sm-5">
-			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a></blockquote></div>
+			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline,events,messages" data-width="320" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+				<blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore">
+					<a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a>
+				</blockquote>
+			</div>
 		</div> <!-- End Col -->	
 </div>
 </div>
 </div>
 <hr>
-</div>	
+	   
 
 <div class="container">
 	<div class="row">
@@ -247,20 +257,20 @@ if (submissions != null && submissions.count() > 0)
 			<p>Conoce nuestras estadísticas</p>
 			<div class="border"></div>
 			<div class="row">
-  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px; padding-left: 3em; padding-right: 3em;">
 	<h2>Lo más visitado</h2>
     <canvas id="grafica1"></canvas>
   <script>
   var ctx = document.getElementById('grafica1').getContext('2d');
   ctx.canvas.width = 500;
-  ctx.canvas.height = 300;
+  ctx.canvas.height = 279;
   var grafica1 = new Chart(ctx, {
       type: 'bar',
       data: {
           labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
           datasets: [{
               label: 'Vistas',
-              data: [12, 19, 3, 5, 2, 3],
+              data: [12, 19, 3, 5, 5, 3],
               backgroundColor: [
                   'rgba(255, 99, 132, 1)',
                   'rgba(54, 162, 235, 1)',
@@ -286,13 +296,13 @@ if (submissions != null && submissions.count() > 0)
   </div>
   <div class="col-md-6">
   <div class="row">
-  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
-	<h4>Autores más visitados</h4>
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px; padding-left: 3em; padding-right: 3em;">
+	<h4>Autores más visitados &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
     <canvas id="grafica2" ></canvas>
   <script>
   var ctx = document.getElementById('grafica2').getContext('2d');
-  ctx.canvas.width = 380;
-  ctx.canvas.height = 515;
+  ctx.canvas.width = 320;
+  ctx.canvas.height = 434;
   var grafica2 = new Chart(ctx, {
       type: 'doughnut',
       data: {
@@ -324,7 +334,7 @@ if (submissions != null && submissions.count() > 0)
     <br>
   </div>
 
-  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px">
+  <div class="col-md-6" style="border: solid; border-width: 1px; border-color: gray; border-radius: 6px; padding-left: 3em; padding-right: 3em;">
   <h4>Publicaciones más visitadas</h4>
     <canvas id="grafica3"></canvas>
   <script>
@@ -366,8 +376,8 @@ if (submissions != null && submissions.count() > 0)
   </div>
 			
 		</div>
-</div>	
-<hr>
+</div>
+	
 <div class="container row">
 <%
 if (communities != null && communities.size() != 0)

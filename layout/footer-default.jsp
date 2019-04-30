@@ -19,9 +19,6 @@
 <%@ page import="org.dspace.app.webui.util.UIUtil" %>
 
 		
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
-		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
 
 
 <%
@@ -46,19 +43,20 @@
             <%-- Page footer --%>
              <footer class="navbar navbar-inverse navbar-bottom" id="contacto_ref">
 			 <div class="row">
-			 <div class="col-md-3">
-				<a href="https://www.conacyt.gob.mx/" target="_blank" >
-					<img src="image/Logotipo_de_la_CONACYT.png" class="img-responsive" id="logo-conacyt" alt="Conacyt" />
+			 <div class="col-md-3">				
+				<a href="http://www.uan.edu.mx" target="_blank" >
+					<img src="/image/logoUAN.png" class="img-responsive" id="logo-uan" alt="UAN" />
 				</a>
 			 </div>
 			 <div class="col-md-6" align="center">
                     <ul class="social-network social-circle" >
 						<h3 id="contacto">Contacto</h3>
-                        <li><a href="http://dspace.uan.mx:8080/jspui/feed/rss_2.0/site" target="_blank" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="https://www.facebook.com/AramaraRI/" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/AramaraRi" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/aramarari/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="mailto:aramara@uan.edu.mx" target="_blank" class="icoEnvelope" title="Correo"><i class="fa fa-envelope"></i></a></li>
+                        <!--Icon made by Freepik from www.flaticon.com -->
+                        <li><a href="http://dspace.uan.mx:8080/jspui/feed/rss_2.0/site" target="_blank" class="icoRss giro-anim" title="Rss"><img src="image/rss.png"/></a></li>
+                        <li><a href="https://www.facebook.com/AramaraRI/" target="_blank" class="icoFacebook giro-anim" title="Facebook"><img src="image/facebook.png"/></a></li>
+                        <li><a href="https://twitter.com/AramaraRi" target="_blank" class="icoTwitter giro-anim" title="Twitter"><img src="image/twitter.png"/></a></li>
+                        <li><a href="https://www.instagram.com/aramarari/" target="_blank" class="icoInstagram giro-anim" title="Instagram"><img src="image/instagram.png"/></a></li>
+						<li><a href="mailto:aramara@uan.edu.mx" target="_blank" class="icoEnvelope giro-anim" title="Correo"><img src="image/email.png" /> </a></li>
                     </ul>
 						<p id="info">UNIVERSIDAD AUTÓNOMA DE NAYARIT
 						<br>
@@ -66,17 +64,17 @@
 						<br>
 						Tepic, Nayarit. México. C.P. 63155
 						<br>
-						Tel. (311) 211 8800.
+						Tel. (311) 211 8800 ext. 6751
 						<br>
-						<a href="mailto:contacto@uan.edu.mx" target="_blank" title="Correo">contacto@uan.edu.mx</a>
+						<a href="mailto:aramara@uan.edu.mx" target="_blank" title="Correo">aramara@uan.edu.mx</a>
 						<br>
 						<a href="http://www.uan.edu.mx" target="_blank" >http://www.uan.edu.mx</a>
 						<br>
 						</p>
 			 </div>
-			 <div class="col-md-3">				
-				<a href="http://www.uan.edu.mx" target="_blank" >
-					<img src="image/logoUAN.png" class="img-responsive" id="logo-uan" alt="UAN" />
+			 <div class="col-md-3">
+				<a href="https://www.conacyt.gob.mx/" target="_blank" >
+					<img src="/image/Logotipo_de_la_CONACYT.png" class="img-responsive" id="logo-conacyt" alt="Conacyt" />
 				</a>
 			 </div>
 			 </div>

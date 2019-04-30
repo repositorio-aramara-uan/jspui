@@ -57,16 +57,30 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/dspace-theme.css" type="text/css" />
         <!-- Archivo css de la libreria 'slippry', plugin del carousel de imagenes -->
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
-		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons.css" type="text/css" />
-		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/prueba.css" type="text/css" />
+		<!--Hoja de estilo de la seccion de Recusos-->
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons-recursos.css" type="text/css" />
+		
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/navigation-bar.css" type="text/css" />
+		<!--Hoja de estilo del menú flotante-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
+		<!--Hoja de estilo de la seccion de noticias-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
+		<!--Hoja de estilo para ocultar el menú flotante-->
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
-		<!-- Hojas de estilo para la barra flotante iconos y parametros -->
-	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
-		<!--Buttons Agregados para la Seccion de Servicios-->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" />
+		
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
+		<!--plugin de Youtube-->
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/youtube.css" type="text/css" />
+
+		<!--Iconos Open Source Google-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/animation.css" type="text/css" />
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+		<!--Footer-->				
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
+
 				
 <%
     if (!"NONE".equals(feedRef))
@@ -134,6 +148,13 @@
     <%-- HACK: marginwidth, marginheight: for non-CSS compliant Netscape browser --%>
     <body class="undernavigation">
 	
+		<script>
+            jQuery(document).ready(function(){
+                jQuery('#slider').slippry()
+            });
+				 
+        </script>
+	
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -155,8 +176,47 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
 
+<script>
+
+    /* Light YouTube Embeds by @labnol */
+    /* Web: http://labnol.org/?p=27941 */
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
+
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2"></script>
+
 
 <a class="sr-only" href="#content">Skip navigation</a>
 <header class="navbar navbar-inverse navbar-fixed-top">    
@@ -171,48 +231,63 @@
     }
     else
     {
-    %>
+    	%>
         <div class="container">
             <dspace:include page="/layout/navbar-minimal.jsp" />
         </div>
-<%
+<%    	
     }
 %>
 </header>
 
-	
+ 
 	<div class="left" id="flotante">
-		<div class="item">
-			<i class="fas fa-fw fa-bars"></i>
-		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/">
-			<i class="fas fa-fw fa-home"></i>Aramara
+		
+									
+		
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/"> 	
+			<i class="material-icons">home</i> Aramara
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
-			<i class="fas fa-fw fa-users"></i> Comunidades
+			<i class="material-icons">people</i> Comunidades
 		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
-			<i class="fas fa-fw fa-gavel"></i> Políticas Inst.
+			<i class="material-icons">bookmark</i> Políticas
 		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/browse?type=dateissued">
-			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
+		<div class="item item-lateral" onclick=location.href="/jspui/browse?type=dateissued">
+			<i class="material-icons">description</i> Publicaciones
+		</div>
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/self-archive">
+			<i class="material-icons">library_add</i> Auto Archivo
+		</div>
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/statics">
+			<i class="material-icons">donut_small</i> Estadísticas
 		</div>
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
-			<i class="fas fa-fw fa-address-book"></i> Contacto
+			<i class="material-icons">assignment_ind</i> Contacto
 		</div>
 	</div>
-<main id="content" role="main">
-<div class="container banner">
-    <div class="row">
-		<div class="col-md-13" align="center">
+	<main id="content" role="main">
+		<div class="container banner">
+			<div class="row">
+				<div class="col-md-2" align="center">
+					<img alt="Logo" class="img-responsive" src="/image/aramara_logo.png" style="max-height: 256px" /> 
+				</div>
+		<div class="col-md-8" align="center">
             <div class="pull-center" align="center">
 				<h1>Repositorio Institucional Aramara</h1>
 				<p><b>Comunidad Científica Virtual de Acceso Abierto</b><p/>
-                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>				
+                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true">
+				</div>				
 			</div>
-             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
 		</div>
-	</div>
+             <!-- <div class="col-md-3"><img class="pull-center" src="<%= request.getContextPath() %>/image/logo.png" alt="DSpace logo" />-->
+				<div class="col-md-2" align="center">
+					<img alt="Logo" class="img-responsive" src="/image/open_access_chaquira.png" style="max-height: 256px" /> 
+				</div>
+			</div>
+		</div>
+	   
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -222,19 +297,31 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/slide01.jpg"></a>
+					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/aramara_banner_web.png"></a>
 					</li>
 					<li>
-					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/slide02.jpg"></a>
+					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/instituciones_repo.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/36"><img src="<%= request.getContextPath() %>/image/slider/slide03.jpg"></a>
+					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://aramara.uan.mx:8080/handle/123456789/191"><img src="<%= request.getContextPath() %>/image/slider/slide04.jpg"></a>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/65"><img src="<%= request.getContextPath() %>/image/slider/algebra_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/slide05.jpg"></a>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1271"><img src="<%= request.getContextPath() %>/image/slider/orga_enfermeria_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1133"><img src="<%= request.getContextPath() %>/image/slider/medios_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1098"><img src="<%= request.getContextPath() %>/image/slider/ambiente_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/221" ><img src="<%= request.getContextPath() %>/image/slider/suelo_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1274"><img src="<%= request.getContextPath() %>/image/slider/alcohol_ria.jpg"></a>
 					</li>
 				</ul>
 			</div>
@@ -252,7 +339,7 @@
     {
 %>
 <div class="container">
-    <dspace:include page="/layout/location-bar.jsp" />
+                <dspace:include page="/layout/location-bar.jsp" />
 </div>                
 <%
     }
@@ -262,6 +349,6 @@
         <%-- Page contents --%>
 <div class="container">
 <% if (request.getAttribute("dspace.layout.sidebar") != null) { %>
-    <div class="row">
-    <div class="col-md-9">
-<% } %>	
+	<div class="row">
+		<div class="col-md-9">
+<% } %>		
