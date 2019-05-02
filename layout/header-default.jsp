@@ -256,7 +256,7 @@
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/self-archive">
 			<i class="material-icons">library_add</i> Auto Archivo
 		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/statics">
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/statistics">
 			<i class="material-icons">donut_small</i> Estadísticas
 		</div>
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
