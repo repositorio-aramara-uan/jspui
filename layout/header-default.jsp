@@ -242,11 +242,14 @@
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/community-list">
 			<i class="fas fa-fw fa-users"></i> Comunidades
 		</div>
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/browse?type=dateissued">
+			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
+		</div>
 		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/policy.jsp">
 			<i class="fas fa-fw fa-gavel"></i> Políticas
 		</div>
-		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/browse?type=dateissued">
-			<i class="fas fa-fw fa-bookmark"></i> Publicaciones
+		<div class="item item-lateral" onclick=location.href="<%= request.getContextPath() %>/statistics">
+			<i class="fas fa-fw fa-bar-chart"></i> Estadísticas
 		</div>
 		<div class="item item-lateral" onclick=location.href="#contacto_ref">
 			<i class="fas fa-fw fa-address-book"></i> Contacto
