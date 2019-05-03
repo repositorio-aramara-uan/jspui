@@ -305,6 +305,12 @@
 					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/instituciones_repo.jpg"></a>
 					</li>
 					<li>
+					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/promocion_ria.jpg"></a>
+					</li>
+					<li>
+					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/descripcion_ria.jpg"></a>
+					</li>
+					<li>
 					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
 					</li>
 					<li>
