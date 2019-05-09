@@ -179,7 +179,7 @@ if (submissions != null && submissions.count() > 0)
               </div>
 			</a>
 			  
-			<a href="<%= request.getContextPath() %>handle/123456789/12" target="_blank" title="" class="color-success ">
+			<a href="<%= request.getContextPath() %>/handle/123456789/12" target="_blank" title="" class="color-success ">
 			<div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-success">
