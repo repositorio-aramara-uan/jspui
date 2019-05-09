@@ -374,7 +374,7 @@ if (submissions != null && submissions.count() > 0)
 			
 		</div>
 </div>
-	
+</div>	
 <div class="container row">
 <%
 if (communities != null && communities.size() != 0)
