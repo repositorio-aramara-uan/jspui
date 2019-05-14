@@ -293,15 +293,6 @@
 			<div style="margin-center: -2em !important">
 				<ul id="slider">
 					<li>
-					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/aramara_banner_web.png"></a>
-					</li>
-					<li>
-					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/instituciones_repo.jpg"></a>
-					</li>
-					<li>
-					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/descripcion_ria.jpg"></a>
-					</li>
-					<li>
 					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/promocion_ria.jpg"></a>
 					</li>
 					<li>
