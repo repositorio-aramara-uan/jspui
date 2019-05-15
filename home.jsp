@@ -231,6 +231,14 @@ if (submissions != null && submissions.count() > 0)
 </div>
 <hr>
 </div>	
+<style>
+.img-aum:hover{
+	transform: scale(1.3);
+}
+.img-aum{
+	z-index: 90;
+}
+</style>
 <div class="row">
 		<div class="col-md-2 col-md-offset-1" align="center">
 		<a href="https://orcid.org/" target="_blank" title="Open Researcher and Contributor ID">
