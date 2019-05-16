@@ -241,58 +241,58 @@ if (submissions != null && submissions.count() > 0)
 </style>
 <div class="row">
 		<div class="col-md-2 col-md-offset-1" align="center">
-		<a href="https://orcid.org/" target="_blank" title="Open Researcher and Contributor ID">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/IDorcid-logo.png" style="max-height: 320px" /> 		
-		</a>
+			<a href="https://orcid.org/" target="_blank" title="Open Researcher and Contributor ID">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/IDorcid-logo.png" style="max-height: 320px" /> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="https://scholar.google.com.mx/" target="_blank" title="Google Académico">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/googleacademico-logo.png" style="max-height: 256px" /> 		
-		</a>
+			<a href="https://scholar.google.com.mx/" target="_blank" title="Google Académico">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/googleacademico-logo.png" style="max-height: 256px" /> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="https://creativecommons.org/" target="_blank" title="Creative Commons">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/creative-commons-.png" style="max-height: 256px"  /> 		
-		</a>
+			<a href="https://creativecommons.org/" target="_blank" title="Creative Commons">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/creative-commons-.png" style="max-height: 256px"  /> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="http://www.remeri.org.mx/portal/index.html" target="_blank" title="Red Mexicana de Repositorios Institucionales">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/remeri.png"/> 		
-		</a>
+			<a href="http://www.remeri.org.mx/portal/index.html" target="_blank" title="Red Mexicana de Repositorios Institucionales">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/remeri.png"/> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="https://www.researchgate.net/" target="_blank" title="Research Gate">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/researchgate.png" style="max-height: 256px"  /> 		
-		</a>
+			<a href="https://www.researchgate.net/" target="_blank" title="Research Gate">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/researchgate.png" style="max-height: 256px"  /> 		
+			</a>
 		</div>
-	</div>
-	<div class="row">
+</div>
+<div class="row">
 		<div class="col-md-2 col-md-offset-1" align="center">
-		<a href="http://sherpa.ac.uk/romeo/index.php?la=es" target="_blank" title="SHERPA/RoMEO">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/sherparomeo-logo.png" style="max-height: 320px" /> 		
-		</a>
+			<a href="http://sherpa.ac.uk/romeo/index.php?la=es" target="_blank" title="SHERPA/RoMEO">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/sherparomeo-logo.png" style="max-height: 320px" /> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="http://www.lareferencia.info/es/" target="_blank" title="La Referencia">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/Lareferencia-logo.png" style="max-height: 256px" /> 		
-		</a>
+			<a href="http://www.lareferencia.info/es/" target="_blank" title="La Referencia">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Lareferencia-logo.png" style="max-height: 256px" /> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="https://www.academia.edu/" target="_blank" title="Academia.edu">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/academia.edu.png" style="max-height: 256px"  /> 		
-		</a>
+			<a href="https://www.academia.edu/" target="_blank" title="Academia.edu">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/academia.edu.png" style="max-height: 256px"  /> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="https://www.openaccess.nl/" target="_blank" title="Open Access">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/open.access.png"/> 		
-		</a>
+			<a href="https://www.openaccess.nl/" target="_blank" title="Open Access">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/open.access.png"/> 		
+			</a>
 		</div>
 		<div class="col-md-2" align="center">
-		<a href="http://riacti.uanl.mx/" target="_blank" title="Dirección de Educación Digital">
-		<img alt="Logo" class="img-responsive img-aum" src="/image/direccion-digital.png" style="max-height: 256px"  /> 		
-		</a>
+			<a href="http://riacti.uanl.mx/" target="_blank" title="Dirección de Educación Digital">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/direccion-digital.png" style="max-height: 256px"  /> 		
+			</a>
 		</div>
-	</div>
+</div>
 
 <div class="container row">
 <%
