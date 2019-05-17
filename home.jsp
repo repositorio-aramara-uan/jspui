@@ -242,54 +242,55 @@ if (submissions != null && submissions.count() > 0)
 <div class="row">
 		<div class="col-md-2 col-md-offset-1" align="center">
 			<a href="https://orcid.org/" target="_blank" title="Open Researcher and Contributor ID">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/IDorcid-logo.png" style="max-height: 320px" /> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/IDorcid-logo.png" style="max-height: 128px" /> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
 			<a href="https://scholar.google.com.mx/" target="_blank" title="Google Académico">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/googleacademico-logo.png" style="max-height: 256px" /> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/logo-google.png" style="max-height: 128px" /> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
 			<a href="https://creativecommons.org/" target="_blank" title="Creative Commons">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/creative-commons-.png" style="max-height: 256px"  /> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/creative-commons-.png" style="max-height: 128px"  /> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
 			<a href="http://www.remeri.org.mx/portal/index.html" target="_blank" title="Red Mexicana de Repositorios Institucionales">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/remeri.png"/> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/remeri.png" style="max-height: 128px"/> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
 			<a href="https://www.researchgate.net/" target="_blank" title="Research Gate">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/researchgate.png" style="max-height: 256px"  /> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/researchgate.png" style="max-height: 128px"  /> 		
 			</a>
 		</div>
 </div>
+</br>
 <div class="row">
 		<div class="col-md-2 col-md-offset-1" align="center">
 			<a href="http://sherpa.ac.uk/romeo/index.php?la=es" target="_blank" title="SHERPA/RoMEO">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/sherparomeo-logo.png" style="max-height: 320px" /> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/logo_sherpa-romeo.png" style="max-height: 128px" /> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
 			<a href="http://www.lareferencia.info/es/" target="_blank" title="Red de Repositorios de acceso abierto a la ciencia">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/Lareferencia-logo.png" style="max-height: 256px" /> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/Lareferencia-logo.png" style="max-height: 128px" /> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
 			<a href="https://www.academia.edu/" target="_blank" title="Academia.edu">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/academia.edu.png" style="max-height: 256px"  /> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/academia.edu.png" style="max-height: 128px"  /> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
 			<a href="https://www.openaccess.nl/" target="_blank" title="Open Access">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/open.access.png"/> 		
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/open_access.png" style="max-height: 128px"/> 		
 			</a>
 		</div>
 		<div class="col-md-2" align="center">
-			<a href="http://riacti.uanl.mx/" target="_blank" title="Dirección de Educación Digital">
-				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/direccion-digital.png" style="max-height: 256px"  /> 		
+			<a href="http://www.cudi.edu.mx/" target="_blank" title="Corporación Universitaria para el Desarrolo de Internet A.C.">
+				<img alt="Logo" class="img-responsive img-aum" src="/image/Reference-logos/CUDI.png" style="max-height: 128px"  /> 		
 			</a>
 		</div>
 </div>
