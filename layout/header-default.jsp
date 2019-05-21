@@ -296,22 +296,22 @@
 					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/promocion_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/65"><img src="<%= request.getContextPath() %>/image/slider/algebra_ria.jpg"></a>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1363" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/FRIJOL AZUFRADO RIAA.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1271"><img src="<%= request.getContextPath() %>/image/slider/orga_enfermeria_ria.jpg"></a>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/76" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/ingles riaa.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1133"><img src="<%= request.getContextPath() %>/image/slider/medios_ria.jpg"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1867" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/medios ria copia.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1098"><img src="<%= request.getContextPath() %>/image/slider/ambiente_ria.jpg"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/697" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/relaciones face RIAA.jpg"></a>
 					</li>
 					<li>
-					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
+					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="https://www.repositorionacionalcti.mx/"><img src="<%= request.getContextPath() %>/image/slider/repo_nacional.jpg"></a>
+					  <a href="https://www.repositorionacionalcti.mx/" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/repo_nacional.jpg"></a>
 					</li>
 				</ul>
 			</div>
