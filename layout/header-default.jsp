@@ -287,16 +287,16 @@
 					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/promocion_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1363" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/FRIJOL AZUFRADO RIAA.jpg"></a>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1363" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/frijol_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/76" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/ingles riaa.jpg"></a>
+					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/76" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/ingles_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1867" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/medios ria copia.jpg"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1867" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/tovara_ria.jpg"></a>
 					</li>
 					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/697" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/relaciones face RIAA.jpg"></a>
+					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/697" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/relaciones_face_ria.jpg"></a>
 					</li>
 					<li>
 					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
