@@ -175,7 +175,7 @@ if (submissions != null && submissions.count() > 0)
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
                 <span class="fb-icon color-info">
-                  <img src="image/documento.png"/>
+                  <img src="/image/documento.png"/>
                 </span>
 				<h3>Artículos Científicos</h3>
               </div>
@@ -186,7 +186,7 @@ if (submissions != null && submissions.count() > 0)
             <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-warning">
-                  <img src="image/libros-en-pila-de-tres.png"/>
+                  <img src="/image/libros-en-pila-de-tres.png"/>
                 </span>
                 <h3>Libros</h3>
               </div>
@@ -197,7 +197,7 @@ if (submissions != null && submissions.count() > 0)
 			<div class="col-lg-3 col-md-6 col-sm-6">
             <div class="text-center feature-block">
                 <span class="fb-icon color-success">
-                  <img src="image/libro-abierto-visto-de-arriba.png"/>
+                  <img src="/image/libro-abierto-visto-de-arriba.png"/>
                 </span>
                 <h3>Capítulos de Libros</h3>
               </div>
@@ -208,7 +208,7 @@ if (submissions != null && submissions.count() > 0)
             <div class="col-lg-3 col-md-6 col-sm-6">
              <div class="text-center feature-block">
                 <span class="fb-icon color-danger">
-                  <img src="image/tesis.png"/>
+                  <img src="/image/tesis.png"/>
                 </span>
                 <h3>Tesis de Posgrado</h>
               </div>
