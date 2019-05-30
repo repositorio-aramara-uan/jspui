@@ -323,7 +323,6 @@ if (communities != null && communities.length != 0)
 		</div>
 </div>
 </br>
-</div>
 <div class="row">
 		<div class="col-md-2 col-md-offset-1" align="center">
 			<a href="http://sherpa.ac.uk/romeo/index.php?la=es" target="_blank" title="SHERPA/RoMEO">
