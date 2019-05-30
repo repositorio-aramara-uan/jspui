@@ -153,11 +153,11 @@ if (submissions != null && submissions.count() > 0)
 <div class="container text-center">
 <!--Icon made by Freepik from www.flaticon.com -->
 			<div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12"> 
-            <div class="service-heading-block">
-                <h2 class="text-center">Conoce Nuestros Recursos</h2>
-            </div>             
-            </div> 
+            <div class="site-heading text-center">
+			<h3>Recursos</h3>
+			<p>Conoce los Articulos,Tesis,Capítulos de libros, libros y demás.</p>
+			<div class="border"></div>
+		</div>
 			<a href="<%= request.getContextPath() %>/handle/123456789/11" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
