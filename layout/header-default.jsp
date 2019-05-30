@@ -280,7 +280,7 @@
             <div class="pull-center" align="center">
 				<h1>Repositorio Institucional Aramara</h1>
 				<p><b>Comunidad Científica Virtual de Acceso Abierto</b><p/>
-                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true">
+                <div class="fb-like" data-href="https://www.facebook.com/AramaraRI" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true">
 				</div>				
 			</div>
 		</div>
