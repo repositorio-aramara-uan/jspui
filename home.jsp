@@ -157,7 +157,7 @@ if (submissions != null && submissions.count() > 0)
 			<h3>Recursos</h3>
 			<p>Conoce los articulos, tesis, capítulos de libros, libros y demás.</p>
 			<div class="border"></div>
-		</div>
+		    </div>
 			<a href="<%= request.getContextPath() %>/handle/123456789/11" target="_blank" title="" class="color-info">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="text-center feature-block">
@@ -221,10 +221,12 @@ if (submissions != null && submissions.count() > 0)
 			</div>
 		</div> <!-- End Col -->							
 		<div class="col-sm-5">
+			<div id="container" style="width:100%;">  
 			<div class="fb-page" data-href="https://www.facebook.com/AramaraRI/" data-tabs="timeline,events,messages" data-width="320" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
 				<blockquote cite="https://www.facebook.com/AramaraRI/" class="fb-xfbml-parse-ignore">
 					<a href="https://www.facebook.com/AramaraRI/">Repositorio Institucional Aramara - UAN</a>
 				</blockquote>
+			</div>
 			</div>
 		</div> <!-- End Col -->	
 </div>
