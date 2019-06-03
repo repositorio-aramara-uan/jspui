@@ -57,7 +57,6 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
 		<!--Hoja de estilo de la seccion de Recusos-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons-recursos.css" type="text/css" />
-		
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/navigation-bar.css" type="text/css" />
 		<!--Hoja de estilo del menú flotante-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
@@ -65,11 +64,11 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 		<!--Hoja de estilo para ocultar el menú flotante-->
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
-		
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/menu-movil.css" type="text/css" />
-		<!--plugin de Youtube-->
+		<!--youtube-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/youtube.css" type="text/css" />
-
+		<!--facebook-->
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/facebook.css" type="text/css" />/>
 		<!--Iconos Open Source Google-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/animation.css" type="text/css" />
@@ -78,9 +77,7 @@
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
-		
 
-				
 <%
     if (!"NONE".equals(feedRef))
     {
