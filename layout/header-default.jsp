@@ -72,6 +72,8 @@
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
 		<!--youtube-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/youtube.css" type="text/css" />
+		<!--facebook-->
+		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/facebook.css" type="text/css" />
 <%
     if (!"NONE".equals(feedRef))
     {

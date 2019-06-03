@@ -76,8 +76,8 @@
 					<img src="/image/Logotipo_de_la_CONACYT.png" class="img-responsive" id="logo-conacyt" alt="Conacyt" />
 				</a>
 			 </div>
-			 </div>
-			 
+			 </div>	
+			 </br>
 			 </footer>
     </body>
 </html>
