@@ -155,7 +155,7 @@ if (submissions != null && submissions.count() > 0)
 			<div class="row">
             <div class="site-heading text-center">
 			<h3>Recursos</h3>
-			<p>Conoce los artículos,tesis,capítulos de libros,libros y más.</p>
+			<p>Conoce los artículos, tesis, capítulos de libros, libros y más.</p>
 			<div class="border"></div>
 		    </div>
 			<a href="<%= request.getContextPath() %>/handle/123456789/11" target="_blank" title="" class="color-info">
