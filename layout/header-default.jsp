@@ -54,24 +54,32 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/dspace-theme.css" type="text/css" />
-        <!-- Archivo css de la libreria 'slippry', plugin del carousel de imagenes -->
-        <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/slippry/slippry.css" type="text/css" />
+		
+		<!-- Start WOWSlider.com HEAD section -->
+		<link rel="stylesheet" type="text/css" href="css/slider.css" />
+		
+		<!-- Hojas de estilo diseño web -->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons-recursos.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/navigation-bar.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/sidebarleft.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/news.css" type="text/css" />
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css" />
+		
 		<!-- Hojas de estilo para la barra flotante iconos y parametros -->
 	    <link rel="stylesheet" href="<%= request.getContextPath() %>/css/flotante.css" type="text/css"/>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+		
 		<!--Buttons Agregados para la Seccion de Servicios-->
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" />
+		
 		<!--Footer-->
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/socialnetworks.css" type="text/css" />
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/logo.css" type="text/css" />
+		
 		<!--youtube-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/youtube.css" type="text/css" />
+		
 		<!--facebook-->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/facebook.css" type="text/css" />
 <%
@@ -98,17 +106,16 @@
 <%
         }
 %>
-        
-        
+        <!-- Scripts -->
         <script type='text/javascript' src="<%= request.getContextPath() %>/static/js/jquery/jquery-1.10.2.min.js"></script>
         <script type='text/javascript' src='<%= request.getContextPath() %>/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
         <script type='text/javascript' src='<%= request.getContextPath() %>/static/js/bootstrap/bootstrap.min.js'></script>
         <script type='text/javascript' src='<%= request.getContextPath() %>/static/js/holder.js'></script>
         <script type="text/javascript" src="<%= request.getContextPath() %>/utils.js"></script>
         <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/choice-support.js"> </script>
-
-        <!-- Archivo javascript de la libreria 'slippry', plugin del carousel de imagenes -->
-        <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/slippry/slippry.min.js"> </script>
+		
+		<!-- Slider Script -->
+		<script type="text/javascript" src="static/js/slider/jquery.js"></script>
 
     <%--Gooogle Analytics recording.--%>
     <%
@@ -147,13 +154,6 @@
     <%-- HACK: leftmargin, topmargin: for non-CSS compliant Microsoft IE browser --%>
     <%-- HACK: marginwidth, marginheight: for non-CSS compliant Netscape browser --%>
     <body class="undernavigation">
-
-		<script>
-            jQuery(document).ready(function(){
-                jQuery('#slider').slippry()
-            });
-				 
-        </script>
 	
 <script>
   window.fbAsyncInit = function() {
@@ -277,45 +277,42 @@
 				</div>
 			</div>
 		</div>
+
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-		</div>
-	
-			<!-- Inicio - Carousel de imagenes -->
-			<div style="margin-center: -2em !important">
-				<ul id="slider">
-					<li>
-					  <a href="<%= request.getContextPath() %>/"><img src="<%= request.getContextPath() %>/image/slider/promocion_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1363" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/frijol_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="http://dspace.uan.mx:8080/jspui/handle/123456789/76" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/ingles_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1867" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/tovara_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="http://aramara.uan.mx:8080/jspui/handle/123456789/697" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/relaciones_face_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/convocatoria_ria.jpg"></a>
-					</li>
-					<li>
-					  <a href="https://www.repositorionacionalcti.mx/" target="_blank"><img src="<%= request.getContextPath() %>/image/slider/repo_nacional.jpg"></a>
-					</li>
+	<div class="row">
+		<!-- Slider -->
+		<div id="wowslider-container1">
+			<div class="ws_images">
+				<ul>
+					<li><a href="<%= request.getContextPath() %>" target="_blank"><img src="image/slider/promocion_ria.jpg" alt="" title="" id="wows1_0"/></a></li>
+					<li><a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1363" target="_blank"><img src="image/slider/frijol_ria.jpg" alt="" title="" id="wows1_1"/></a></li>
+					<li><a href="http://dspace.uan.mx:8080/jspui/handle/123456789/76" target="_blank"><img src="image/slider/ingles_ria.jpg" alt="" title="" id="wows1_2"/></a></li>
+					<li><a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1867" target="_blank"><img src="image/slider/tovara_ria.jpg" alt="" title="" id="wows1_3"/></a></li>
+					<li><a href="http://aramara.uan.mx:8080/jspui/handle/123456789/697" target="_blank"><img src="image/slider/relaciones_face_ria.jpg" alt="" title="" id="wows1_4"/></a></li>
+					<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w" target="_blank"><img src="image/slider/convocatoria_ria.jpg" alt="" title="" id="wows1_5"/></a></li>
+					<li><a href="https://www.repositorionacionalcti.mx/" target="_blank"><img src="image/slider/repo_nacional.jpg" alt="" title="" id="wows1_6"/></a></li>
 				</ul>
 			</div>
-			<!-- Fin - Carousel de imagenes -->
+			<div class="ws_bullets">
+				<div>
+					<a href="#"><span>1</span></a>
+					<a href="#"><span>2</span></a>
+					<a href="#"><span>3</span></a>
+					<a href="#"><span>4</span></a>
+					<a href="#"><span>5</span></a>
+					<a href="#"><span>6</span></a>
+					<a href="#"><span>7</span></a>
+				</div>
+			</div>
+		</div>	
+		<script type="text/javascript" src="static/js/slider/wowslider.js"></script>
+		<script type="text/javascript" src="static/js/slider/script.js"></script>
+		<!-- fin de Slider -->
 	</div>
 </div>
-</div>
-    </div>
-</div>
-<br/>
-<br/>
+</br>
+</br>
+
                 <%-- Location bar --%>
 <%
     if (locbar)
