@@ -284,13 +284,13 @@
 		<div id="wowslider-container1">
 			<div class="ws_images">
 				<ul>
-					<li><a href="<%= request.getContextPath() %>" target="_blank"><img src="image/slider/promocion_ria.jpg" alt="" title="" id="wows1_0"/></a></li>
-					<li><a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1363" target="_blank"><img src="image/slider/frijol_ria.jpg" alt="" title="" id="wows1_1"/></a></li>
-					<li><a href="http://dspace.uan.mx:8080/jspui/handle/123456789/76" target="_blank"><img src="image/slider/ingles_ria.jpg" alt="" title="" id="wows1_2"/></a></li>
-					<li><a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1867" target="_blank"><img src="image/slider/tovara_ria.jpg" alt="" title="" id="wows1_3"/></a></li>
-					<li><a href="http://aramara.uan.mx:8080/jspui/handle/123456789/697" target="_blank"><img src="image/slider/relaciones_face_ria.jpg" alt="" title="" id="wows1_4"/></a></li>
-					<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w" target="_blank"><img src="image/slider/convocatoria_ria.jpg" alt="" title="" id="wows1_5"/></a></li>
-					<li><a href="https://www.repositorionacionalcti.mx/" target="_blank"><img src="image/slider/repo_nacional.jpg" alt="" title="" id="wows1_6"/></a></li>
+					<li><a href="<%= request.getContextPath() %>" target="_blank"><img src="/image/slider/promocion_ria.jpg" alt="" title="" id="wows1_0"/></a></li>
+					<li><a href="http://dspace.uan.mx:8080/jspui/handle/123456789/1363" target="_blank"><img src="/image/slider/frijol_ria.jpg" alt="" title="" id="wows1_1"/></a></li>
+					<li><a href="http://dspace.uan.mx:8080/jspui/handle/123456789/76" target="_blank"><img src="/image/slider/ingles_ria.jpg" alt="" title="" id="wows1_2"/></a></li>
+					<li><a href="http://aramara.uan.mx:8080/jspui/handle/123456789/1867" target="_blank"><img src="/image/slider/tovara_ria.jpg" alt="" title="" id="wows1_3"/></a></li>
+					<li><a href="http://aramara.uan.mx:8080/jspui/handle/123456789/697" target="_blank"><img src="/image/slider/relaciones_face_ria.jpg" alt="" title="" id="wows1_4"/></a></li>
+					<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMiyiyw90WRYW2hsv1Wo55OgdoNYJdkfnKVuCuesgA3uoMPw/viewform?fbclid=IwAR2iO9hYIDQxz0XcrNn5OuGqVb8vUSDLAKYax0yIr43OOEOPbVgM9TmVw4w" target="_blank"><img src="/image/slider/convocatoria_ria.jpg" alt="" title="" id="wows1_5"/></a></li>
+					<li><a href="https://www.repositorionacionalcti.mx/" target="_blank"><img src="/image/slider/repo_nacional.jpg" alt="" title="" id="wows1_6"/></a></li>
 				</ul>
 			</div>
 			<div class="ws_bullets">
