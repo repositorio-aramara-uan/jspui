@@ -56,7 +56,7 @@
         <link rel="stylesheet" href="<%= request.getContextPath() %>/static/css/bootstrap/dspace-theme.css" type="text/css" />
 		
 		<!-- Start WOWSlider.com HEAD section -->
-		<link rel="stylesheet" type="text/css" href="css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="/css/slider.css" />
 		
 		<!-- Hojas de estilo diseño web -->
 		<link rel="stylesheet" href="<%= request.getContextPath() %>/css/buttons-recursos.css" type="text/css" />
