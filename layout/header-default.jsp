@@ -115,7 +115,7 @@
         <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/choice-support.js"> </script>
 		
 		<!-- Slider Script -->
-		<script type="text/javascript" src="static/js/slider/jquery.js"></script>
+		<script type="text/javascript" src="/static/js/slider/jquery.js"></script>
 
     <%--Gooogle Analytics recording.--%>
     <%
@@ -305,8 +305,8 @@
 				</div>
 			</div>
 		</div>	
-		<script type="text/javascript" src="static/js/slider/wowslider.js"></script>
-		<script type="text/javascript" src="static/js/slider/script.js"></script>
+		<script type="text/javascript" src="/static/js/slider/wowslider.js"></script>
+		<script type="text/javascript" src="/static/js/slider/script.js"></script>
 		<!-- fin de Slider -->
 	</div>
 </div>
