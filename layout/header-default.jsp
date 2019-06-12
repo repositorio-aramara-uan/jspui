@@ -311,7 +311,6 @@
 	</div>
 </div>
 </br>
-</br>
 
                 <%-- Location bar --%>
 <%
