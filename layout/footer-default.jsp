@@ -59,9 +59,9 @@
                     </ul>
 						<p id="info">UNIVERSIDAD AUTÓNOMA DE NAYARIT
 						<br>
-						Ciudad de la Cultura "Amado Nervo".
+						Ciudad de la Cultura
 						<br>
-						Tepic, Nayarit. México. C.P. 63155
+						Tepic, Nayarit, México. C.P. 63000
 						<br>
 						Tel. (311) 211 8800 ext. 6751
 						<br>
