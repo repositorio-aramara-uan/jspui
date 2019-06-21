@@ -214,10 +214,10 @@ if (submissions != null && submissions.count() > 0)
 		<div class="col-sm-5 col-md-1">
 	    </div> <!-- End Col -->	
 	    <div class="col-sm-5">
-			<div class="youtube-player" data-id="IBuNlxRAAjQ"></div>
+			<div class="youtube-player" data-id="owhfOOQUepc"></div>
 			<div> 
 				<h4 align="center">
-                     Dra. Gabriela Ávila Villareal
+                     Dra. Maria Palmira Gonzalez Villegas 
 				</h4>
 			</div>
 			<div>

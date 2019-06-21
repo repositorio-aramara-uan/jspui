@@ -59,6 +59,10 @@
                     </ul>
 						<p id="info">UNIVERSIDAD AUTÓNOMA DE NAYARIT
 						<br>
+						Secretaría de Servicios Académicos 
+						<br>
+						Área de Innovación y Desarrollo Tecnológico (IDT)
+						<br>
 						Ciudad de la Cultura
 						<br>
 						Tepic, Nayarit, México. C.P. 63000
